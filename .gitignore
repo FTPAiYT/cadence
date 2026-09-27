@@ -1,0 +1,17 @@
+*
+!.gitignore
+!.gitattributes
+!README.md
+!AGENTS.md
+!AGENT_CONNECTION.md
+!SETUP.md
+!FIRST_IMPORT.md
+!TROUBLESHOOTING.md
+!PRIVACY.md
+!RELEASE_NOTES.md
+!THIRD_PARTY.md
+!SHA256SUMS
+!Get-Cadence.ps1
+!releases/
+releases/*
+!releases/windows-x64.json

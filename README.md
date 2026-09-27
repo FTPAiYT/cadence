@@ -1,0 +1,74 @@
+# Cadence
+
+A desktop music-video editor for working with generated or downloaded footage.
+Review takes, save moments, edit to your song, generate editable lyrics locally,
+and export an MP4.
+
+## Give this repository to your agent
+
+Copy this repository's URL into an agent that can work with files on your computer:
+
+> Help me get started with Cadence using this repository. Read README.md and
+> AGENTS.md, find the published Windows installer, and help me install and open it.
+> Connect using File → Connect your agent. Ask how I make videos, where the
+> finished files arrive, and which song or project they are for. Bring the clips
+> I choose into a named bin for review. Preserve my files and existing edits.
+
+The agent handles the technical setup. You provide the creative choices and any
+required Windows approval. A remote chat without access to your files cannot
+perform the local import.
+
+## Download status
+
+**0.5.0 is an early-access candidate. The installer is not published yet.**
+The setup documentation is ready; native-library source materials and release
+terms still need completion before a download is attached. See
+[release status](RELEASE_NOTES.md). Do not download similarly named files from
+other repositories or treat GitHub's automatic “Source code” ZIP as the app.
+
+| Package | Status |
+| --- | --- |
+| Windows 10 or newer, x64 | Prepared locally; unsigned; publication pending |
+| macOS | No package available yet |
+
+When published, the installer will be a **release asset** under this repository's
+Releases tab. The exact filename, size and SHA-256 are recorded in
+[the package manifest](releases/windows-x64.json) and [SHA256SUMS](SHA256SUMS).
+
+## What comes in the Windows download
+
+- The Cadence desktop app, review workspace and music-video editor.
+- Local agent connection and import helper; no separate MCP server required.
+- Whisper and its large-v3-turbo speech model for editable lyrics and timings.
+- Private Python runtimes and video-processing dependencies.
+
+The current candidate is **1.73 GB to download**, approximately **2.56 GB installed**.
+Allow room for both during setup, plus your footage, previews and exports.
+Transcription runs on CPU; speed depends on your computer. Singing can require
+corrections to generated words and timings.
+
+Python, FFmpeg and Whisper need no separate installation. Existing installations
+are left untouched. Setup reuses Microsoft WebView2, or installs it using an
+internet connection if it is missing. Your agent, video-generation services and
+their credits are separate.
+
+## Start with your first batch
+
+1. Install and open Cadence using the published release.
+2. Open **File → Connect your agent → Enable and copy instructions**.
+3. Paste those instructions into your local agent. Tell it how you make videos
+   and where the completed clips arrive.
+4. Ask it to bring a specific batch into a named bin. In Cadence, choose
+   **View videos**, review the takes, and save the moments you want.
+
+Website downloads and local generations use the same workflow. Cadence references
+your original clips without moving them. Importing a bin does not overwrite a cut
+or automatically put footage on the timeline.
+
+[Installation](SETUP.md) · [First import](FIRST_IMPORT.md) ·
+[Agent helper](AGENT_CONNECTION.md) · [Troubleshooting](TROUBLESHOOTING.md) ·
+[Data and privacy](PRIVACY.md) · [Included software](THIRD_PARTY.md)
+
+This repository holds distribution instructions. It does not contain the private
+development checkout, personal projects, footage, connection credentials or history.
+Pricing, future updates and Mac availability are not promised by this preview.
