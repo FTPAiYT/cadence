@@ -7,7 +7,7 @@ An existing installed copy can use the connection instructions below now.
 ## Requirements and download
 
 - Windows 10 or newer, x64. No Mac package is available yet.
-- Approximately 1.73 GB download and 2.56 GB installed. Keep additional room for
+- Approximately 1.85 GB download and 2.61 GB installed. Keep additional room for
   both during setup and for your own media, previews and exports.
 - Internet is needed for the initial download and, if absent, Microsoft WebView2.
   The Whisper engine and speech model are already included.

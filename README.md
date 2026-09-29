@@ -21,8 +21,9 @@ perform the local import.
 ## Download status
 
 **0.5.0 is an early-access candidate. The installer is not published yet.**
-The setup documentation is ready; native-library source materials and release
-terms still need completion before a download is attached. See
+The Windows package includes matching video-component sources and notices.
+Cadence 0.5 is free to use, including for commercial video work; selling Cadence
+itself requires permission. Separate third-party license rights are preserved. See
 [release status](RELEASE_NOTES.md). Do not download similarly named files from
 other repositories or treat GitHub's automatic “Source code” ZIP as the app.
 
@@ -42,7 +43,7 @@ Releases tab. The exact filename, size and SHA-256 are recorded in
 - Whisper and its large-v3-turbo speech model for editable lyrics and timings.
 - Private Python runtimes and video-processing dependencies.
 
-The current candidate is **1.73 GB to download**, approximately **2.56 GB installed**.
+The current candidate is **1.85 GB to download**, approximately **2.61 GB installed**.
 Allow room for both during setup, plus your footage, previews and exports.
 Transcription runs on CPU; speed depends on your computer. Singing can require
 corrections to generated words and timings.

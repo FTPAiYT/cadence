@@ -95,3 +95,19 @@ action is deliberate so an arriving batch does not interrupt an edit.
 Keep Cadence open while connected. The user can disconnect or reset agent access
 from Connect your agent. This connection is for a trusted agent running as the
 same local user; a remote-only chat cannot read their local video files.
+
+## Local access boundary
+
+Connect only an agent the user already trusts with their local files. The
+connection credential protects the agent endpoint; it is not an operating-system
+sandbox for programs running as the same user. Cadence's editor also uses local
+HTTP endpoints. Disconnect revokes the agent credential, not the agent's existing
+filesystem permissions.
+
+Imports accept explicit local video files and directories, including files outside
+the original project folder. Saved workflow folders describe the user's workflow;
+they are not access grants. Keep imports within the user's request. Original files
+stay in place. Ordinary media URLs resolve inside the selected project folders;
+outside files are served only through their recorded import/catalogue references.
+The server binds to loopback and rejects foreign browser origins and hosts.
+
