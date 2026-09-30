@@ -6,12 +6,12 @@
   "platform": "windows-x64",
   "published": false,
   "tag": "v0.5.0",
-  "asset": "Cadence-Setup-0.5.0-clean.exe",
-  "bytes": 1733604251,
-  "sha256": "95d40e1e3d569e45c5693b54c734707374165dc38545a58ae4e103214333ce14",
-  "installedPayloadBytes": 2560806500,
+  "asset": "Cadence-Setup-0.5.0-release-r5.exe",
+  "bytes": 1851984762,
+  "sha256": "7497a7a7cdc2c1668d9a1edba3e2983dd9ec3003710d90c22db6afe8b03658fe",
+  "installedPayloadBytes": 2607131772,
   "signed": false,
   "includesWhisper": true,
   "minimumWindows": "10",
-  "status": "Publication pending native-library source materials and release terms."
+  "status": "Release v0.5.0 uploaded with matching hashes. Public access pending GitHub account confirmation; repository remains private."
 }
