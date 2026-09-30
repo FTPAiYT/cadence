@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Cadence is a free desktop music-video editor. Bring in generated footage with your agent, review takes, edit to your song, and generate lyrics locally. Windows early access.">
+  <meta name="theme-color" content="#101210">
+  <title>Cadence — Free desktop editor for AI music videos.</title>
+  <link rel="icon" href="cadence.png">
+  <link rel="preload" as="image" href="9201669dd53e.webp">
+  <link rel="stylesheet" href="style.css?v=hero-logo-flush-triangle-v2">
+  <script src="config.js" defer></script>
+  <script src="site.js" defer></script>
+  <script src="banner-order.js" defer></script>
+  <script src="banner-preview.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <section id="banner-picker" class="banner-picker" aria-label="Banner preview controls" hidden>
+    <div class="banner-picker-main"><strong>Banner preview</strong><button id="banner-prev" aria-label="Previous banner">←</button><label class="sr-only" for="banner-choice">Reference image</label><select id="banner-choice"></select><button id="banner-next" aria-label="Next banner">→</button><span id="banner-count" aria-live="polite"></span><button id="banner-favourite" aria-pressed="false">☆ Favourite</button><button id="banner-copy">Copy choice</button><button id="banner-hide">Hide controls</button></div>
+    <div class="banner-picker-framing"><span id="banner-resolution"></span><label>Left / right <input id="banner-x" type="range" min="0" max="100" value="50"></label><label>Up / down <input id="banner-y" type="range" min="0" max="100" value="26"></label><button id="banner-reset">Reset framing</button><label class="banner-text-toggle"><input id="banner-text" type="checkbox"> Hide page text</label><span id="banner-status" role="status">Use ← → to browse. Selection stays in this browser.</span></div>
+    <div class="banner-shortlist"><strong id="banner-favourite-count">Favourites · 0</strong><div id="banner-favourites" aria-label="Favourite banners"></div><button id="banner-cycle" disabled aria-pressed="false">Preview cycle</button><button id="banner-copy-favourites" disabled>Copy favourites</button><span id="banner-cycle-hint">Star a few images to build your shortlist.</span></div>
+  </section>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="9201669dd53e.webp" alt="Original Bossy reference: the pink-and-blue cloud stage with drums and studio lights." width="1456" height="816" style="object-position:50% 50%" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <header class="navigation">
+        <a class="brand" href="#" aria-label="Cadence home"><span class="brand-mark"><img src="cadence.png" width="88" height="88" alt="Cadence logo"></span><span class="version">0.5</span></a>
+        <nav aria-label="Main navigation"><button id="open-banner-picker" hidden aria-expanded="false" aria-controls="banner-picker">Banner picker</button><button id="banner-pause" hidden>Pause cycle</button><a href="#workflow">Explore the editor</a><a href="#agent">How it works</a><a class="nav-cta" href="#get">Get Cadence <span aria-hidden="true">↗</span></a></nav>
+      </header>
+      <div class="hero-top"><p class="eyebrow">YOUR FOOTAGE. YOUR SONG. YOUR EDIT.</p><span class="eyebrow">FREE EARLY ACCESS / WINDOWS</span></div>
+      <h1 id="hero-title">Cadence<span class="title-period">.</span></h1>
+      <div class="hero-bottom">
+        <div class="hero-message"><h2>A free desktop video editor.<br>Built for music videos.</h2><p>Connect your AI agent to import and sort your video clips.<br class="desktop-break"> Easily compare takes, clip the best parts, and assemble your video in the timeline.</p><a class="button light" href="#agent">Get started with your agent <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="hero-caption"><span>WINDOWS APP / FREE EARLY ACCESS 0.5</span><span>ORIGINAL BOSSY REFERENCE ARTWORK</span></div>
+      <a class="explore-banner" href="#workflow" aria-label="Explore the Workflow">
+        <span>Explore the Workflow</span>
+        <svg class="explore-arrow" aria-hidden="true" viewBox="0 0 300 260" preserveAspectRatio="none"><path d="M0 0H300L150 260Z" fill="#000"/></svg>
+      </a>
+    </section>
+
+    <section class="features section-pad" id="workflow" aria-labelledby="workflow-title">
+      <div class="section-top"><p class="eyebrow">THE WORKFLOW / 01—04</p><p class="quiet">Made in Cadence. Shown with the Bossy project.</p></div>
+      <h2 id="workflow-title">Find the moment.<br><span>Build around it.</span></h2>
+      <div class="feature-rows">
+        <article class="feature-row" id="feature-import">
+          <div class="feature-text"><p class="feature-kicker">01 / BRING IT IN</p><h3>Made anywhere.<br>All here.</h3><p>Download from Midjourney. Generate locally. Tell your agent where the finished clips arrive, and have it bring them into a named bin.</p><p class="feature-note">Your original files stay where they are.</p></div>
+          <figure class="product-shot"><button class="expand-shot" data-shot="bossy-library-v1.webp" data-caption="Bossy project / Footage library" aria-label="Expand Bossy project / Footage library screenshot"><img src="bossy-library-v1.webp" alt="Cadence with the Bossy project open: project bins, footage thumbnails, and a selected music-video clip." width="1600" height="1000" loading="lazy" decoding="async"></button><figcaption><span>Bossy project / Footage library</span><span aria-hidden="true">Click to enlarge ↗</span></figcaption></figure>
+        </article>
+        <article class="feature-row" id="feature-review">
+          <div class="feature-text"><p class="feature-kicker">02 / REVIEW YOUR TAKES</p><h3>Find your favourite.<br>Keep the moment.</h3><p>Compare takes side by side. Rate a clip, leave a note, and save the range you want to use. Your agent can read your saved choices when you ask for the next batch.</p><p class="feature-note">The creative decisions stay with you.</p></div>
+          <figure class="product-shot"><button class="expand-shot" data-shot="bossy-compare-v1.webp" data-caption="Bossy project / Compare takes" aria-label="Expand Bossy project / Compare takes screenshot"><img src="bossy-compare-v1.webp" alt="Two Bossy takes side by side in Cadence. The left-hand Champion button is highlighted in gold and the right-hand Reject button in coral." width="1600" height="1000" loading="lazy" decoding="async"><span class="reject-annotation" aria-hidden="true"><span class="reject-ring"></span><span class="champion-ring"></span></span></button><figcaption><span>Bossy project / Compare takes</span><span aria-hidden="true">Click to enlarge ↗</span></figcaption></figure>
+        </article>
+        <article class="feature-row" id="feature-lyrics">
+          <div class="feature-text"><p class="feature-kicker">03 / ADD YOUR SONG</p><h3>The words,<br>in their place.</h3><p>Whisper turns your song into editable lyrics and timings, right on your computer. Review the words, adjust the timing, and choose how they appear in your video.</p><p class="feature-note">Whisper and its model are included in the download.</p></div>
+          <figure class="product-shot"><button class="expand-shot" data-shot="bossy-lyrics-v1.webp" data-caption="Bossy project / Automatic lyrics" aria-label="Expand Bossy project / Automatic lyrics screenshot"><img src="bossy-lyrics-v1.webp" alt="The real Bossy edit with Cadence’s lyrics panel open, including Generate timed lyrics and the editable song lyrics." width="1600" height="1000" loading="lazy" decoding="async"></button><figcaption><span>Bossy project / Automatic lyrics</span><span aria-hidden="true">Click to enlarge ↗</span></figcaption></figure>
+        </article>
+        <article class="feature-row" id="feature-edit">
+          <div class="feature-text"><p class="feature-kicker">04 / MAKE THE CUT</p><h3>Make it feel<br>like the song.</h3><p>Arrange your selects. Trim, layer, and fade. Bring the lyrics into the picture, then export your finished music video as an MP4.</p><p class="feature-note">Your footage, music, and lyrics in one timeline.</p></div>
+          <figure class="product-shot"><button class="expand-shot" data-shot="bossy-editor-v1.webp" data-caption="Bossy project / Timeline editor" aria-label="Expand Bossy project / Timeline editor screenshot"><img src="bossy-editor-v1.webp" alt="The Bossy 5 edit in Cadence: the program preview above multiple video layers, the music waveform, and timed lyrics." width="1600" height="1000" loading="lazy" decoding="async"></button><figcaption><span>Bossy project / Timeline editor</span><span aria-hidden="true">Click to enlarge ↗</span></figcaption></figure>
+        </article>
+      </div>
+    </section>
+
+    <section class="agent section-pad" id="agent" aria-labelledby="agent-title">
+      <div class="section-top"><p class="eyebrow">GETTING STARTED</p><span class="eyebrow">YOU + YOUR AGENT + CADENCE</span></div>
+      <div class="agent-layout"><div><h2 id="agent-title">Send a link.<br><span>Start a conversation.</span></h2><p class="section-intro">Your agent handles the setup.<br>You bring the creative direction.</p><ol class="setup-steps"><li><span>01</span><div><h3>Give your agent the GitHub link.</h3><p>It reads the instructions and helps install Cadence on your computer.</p></div></li><li><span>02</span><div><h3>Connect it to your workspace.</h3><p>Open <strong>File → Connect your agent</strong> in Cadence. Enable access and paste the connection instructions into your agent.</p></div></li><li><span>03</span><div><h3>Tell it how you make videos.</h3><p>It asks where your clips arrive, which project they’re for, and what you want to bring in.</p></div></li></ol></div>
+      <div class="agent-message"><div class="message-label"><span class="micro">PASTE INTO YOUR LOCAL AGENT</span><span aria-hidden="true">↗</span></div><label class="sr-only" for="agent-prompt">Instructions for your agent</label><textarea id="agent-prompt" readonly spellcheck="false">Help me get started with Cadence. Ask me for the public Cadence GitHub setup link if I haven’t provided it. Read README.md and AGENTS.md, inspect the instructions, and help me install and open the Windows app. Then help me connect you through File → Connect your agent. Ask how I make videos, where the finished clips arrive, and which song or project they belong to. Bring the clips I choose into a named bin. Preserve my original files and existing edits.</textarea><button class="button dark" id="copy-prompt">Copy setup instructions <span aria-hidden="true">⧉</span></button><p class="copy-status" id="copy-status" role="status" aria-live="polite"></p><p id="repo-status" class="release-note">The public GitHub link is being prepared. These instructions will include it when the release is published.</p><a id="repo-link" hidden target="_blank" rel="noopener noreferrer">Open the setup repository ↗</a><div class="agent-requirement">Your agent needs access to files on your computer. A browser chat on its own can’t import local footage.</div></div></div>
+    </section>
+
+    <section class="package section-pad" id="inside" aria-labelledby="package-title"><div class="section-top"><p class="eyebrow">WHAT YOU’RE DOWNLOADING</p><span class="eyebrow">CADENCE 0.5 / WINDOWS X64</span></div><div class="package-layout"><div><h2 id="package-title">The lyrics engine.<br>The editor.<br><span>Already packed.</span></h2><div class="download-size">1.85<span>GB</span></div><p class="package-size-note">About 2.61 GB installed.<br>Plus room for your footage, previews, and exports.</p></div><div class="package-details"><article><span class="item-number">01</span><div><h3>Review & edit</h3><p>Bins, ratings, notes, saved moments, timeline editing, layers, fades, lyrics, and MP4 export.</p></div></article><article><span class="item-number">02</span><div><h3>Whisper & its model</h3><p>Automatic lyrics processed on your computer. No separate model download or transcription subscription. Singing can need corrections.</p></div></article><article><span class="item-number">03</span><div><h3>The tools to run it</h3><p>Private Python runtimes, video-processing tools, and the local agent connection. Existing installations stay untouched.</p></div></article><p class="package-footnote">Windows 10 or newer · 64-bit · CPU transcription<br>Keep space for both the installer and installed app during setup.</p></div></div></section>
+
+    <section class="get section-pad" id="get" aria-labelledby="get-title"><div class="get-heading"><p class="eyebrow">FREE EARLY ACCESS / VERSION 0.5</p><h2 id="get-title">Your next<br>music video<span> starts here.</span></h2></div><div class="get-row"><div><a class="button dark" href="#agent">Set up with your agent <span aria-hidden="true">↗</span></a><a class="button outline" id="windows-download" hidden>Download for Windows <span aria-hidden="true">↓</span></a><p id="windows-pending" class="pending">Windows download coming with the public release.</p><p class="release-status" id="release-status">The installer is built. The public download is not live yet.</p></div><div class="platform-note"><span>WINDOWS 10+ / X64</span><span>1.85 GB · WHISPER INCLUDED</span><span>Mac version is not available yet.</span></div></div>
+      <div class="faq"><h3>A few practical details.</h3><div><details><summary>What will Windows say when I install it?<span aria-hidden="true">+</span></summary><p>This early-access installer is unsigned. Windows may show “Unknown publisher” or a SmartScreen warning. Only use the official release linked here, and have your agent verify the published file checksum. Some managed computers may block unsigned apps.</p></details><details><summary>Does Cadence make the videos?<span aria-hidden="true">+</span></summary><p>Generate footage with your existing tools, then bring the completed files into Cadence to review and edit. Cadence doesn’t include video-generation credits or an AI agent. You can also edit without connecting an agent.</p></details><details><summary>Does my song leave my computer?<span aria-hidden="true">+</span></summary><p>The bundled Whisper engine processes your song locally on your CPU. Transcription speed depends on your computer. Your separate agent or generation service has its own data practices.</p></details><details><summary>Do I have to install anything else?<span aria-hidden="true">+</span></summary><p>Python, Whisper, its model, and video-processing tools are included. Cadence uses Microsoft WebView2; setup reuses it if installed, or needs an internet connection to install it if missing.</p></details><details><summary>Can I use it for paid video work?<span aria-hidden="true">+</span></summary><p>Yes. Cadence 0.5 is free to use, including for commercial and client videos. Selling Cadence itself requires permission. Separate third-party license rights are preserved; notices and matching video-component sources are included.</p></details><details><summary>What happens if I uninstall?<span aria-hidden="true">+</span></summary><p>Uninstalling removes the app. Projects are stored separately and retained, and your original footage stays where you keep it.</p></details></div></div>
+    </section>
+  </main>
+  <footer><a class="footer-wordmark" href="#">Cadence<span>.</span></a><div><span>A DESKTOP MUSIC-VIDEO EDITOR.</span><a href="#inside">Inside the download ↗</a><span>0.5 / EARLY ACCESS</span></div></footer>
+  <dialog class="screenshot-dialog" aria-labelledby="shot-title"><div class="shot-dialog-top"><p id="shot-title"></p><button id="close-shot" aria-label="Close screenshot">Close <span aria-hidden="true">×</span></button></div><div class="shot-dialog-image"><img id="full-shot" alt=""><span class="reject-annotation" hidden aria-hidden="true"><span class="reject-ring"></span><span class="champion-ring"></span></span></div><p class="shot-dialog-hint">Actual Cadence screenshot · Bossy project</p></dialog>
+  <noscript><p class="noscript-note">JavaScript is off. All screenshots and setup instructions remain readable. Select the instructions to copy them manually.</p></noscript>
+</body>
+</html>
