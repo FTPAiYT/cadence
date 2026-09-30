@@ -1,7 +1,6 @@
-# Cadence 0.5.0 — Windows early-access candidate
+# Cadence 0.5.0 — Windows early access
 
-**Download publication pending.** This repository is the setup handoff. No Mac
-installer or published Windows release is claimed by the documentation alone.
+**[Windows download available](https://github.com/FTPAiYT/cadence/releases/tag/v0.5.0).** This repository is the setup handoff. No Mac installer is available yet.
 
 ## Included behavior
 
@@ -22,7 +21,7 @@ installer or published Windows release is claimed by the documentation alone.
 
 ## Package identity
 
-| Field | Current candidate |
+| Field | Released package |
 | --- | --- |
 | File | `Cadence-Setup-0.5.0-release-r5.exe` |
 | Bytes | `1851984762` |
@@ -44,12 +43,6 @@ promised here.
 No automatic updates, Mac package, GPU lyrics acceleration, perfect transcription,
 or generation-service credits are included in this release claim.
 
-## Before attaching the public download
+## Included notices
 
-- Matching video-component sources/notices and the free-use application terms
-  are now included. See [THIRD_PARTY.md](THIRD_PARTY.md).
-- Publish the chosen asset, verify its identity, then change the manifest's
-  `published` field. If the binary changes, update the hash and size everywhere.
-
-Code signing remains a product decision; this draft explicitly identifies the
-unsigned candidate rather than presenting a signature as already obtained.
+Matching video-component sources/notices and the free-use application terms are included. See [THIRD_PARTY.md](THIRD_PARTY.md). This early-access installer is unsigned.

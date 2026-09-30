@@ -1,8 +1,7 @@
 # Install Cadence for Windows
 
-The public installer is pending. Follow these steps only after the release asset
-exists and `published` is true in [releases/windows-x64.json](releases/windows-x64.json).
-An existing installed copy can use the connection instructions below now.
+[Download Cadence 0.5.0 for Windows](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-Setup-0.5.0-release-r5.exe).
+The exact package identity is recorded in [releases/windows-x64.json](releases/windows-x64.json).
 
 ## Requirements and download
 
@@ -14,7 +13,7 @@ An existing installed copy can use the connection instructions below now.
 - An agent needs local filesystem/process access to help with setup/import.
 
 Obtain the `.exe` from this repository's Releases tab. Do not use the automatically
-generated source ZIP; that contains only these documents. The manifest specifies
+generated source ZIP; that contains the setup documents and landing page, not the app. The manifest specifies
 the exact tag, asset, size, SHA-256 and signature status. Do not substitute a file
 from another repository when a release asset is missing.
 
@@ -22,16 +21,16 @@ An agent can use the reviewed [Get-Cadence.ps1](Get-Cadence.ps1) script to downl
 and hash-check a published release. Pass the actual owner/name of this repository:
 
 ```powershell
-.\Get-Cadence.ps1 -Repository 'OWNER/REPOSITORY' -Destination 'C:\Chosen\Download folder' -Download
+.\Get-Cadence.ps1 -Repository 'FTPAiYT/cadence' -Destination 'C:\Chosen\Download folder' -Download
 ```
 
-Replace those two values with the actual repository and user-chosen destination.
+Replace the destination with your chosen download folder.
 The script never runs the installer, creates a project or changes security settings.
 Without `-Download` it only reads the local manifest and reports release status.
 If script execution is restricted, inspect it and use its equivalent download/hash
 steps through permitted tools; do not change execution policy just to run it.
 
-The candidate is **unsigned**. Windows may identify an unknown publisher or show
+The installer is **unsigned**. Windows may identify an unknown publisher or show
 SmartScreen. Explain this accurately, verify the source/hash, and let the user
 decide whether to approve. A checksum is not a signing certificate.
 

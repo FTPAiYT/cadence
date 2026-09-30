@@ -16,3 +16,26 @@
 !releases/
 releases/*
 !releases/windows-x64.json
+
+# Curated static landing page
+!docs/
+docs/*
+!docs/.nojekyll
+!docs/1855b87e8df3.webp
+!docs/5fd39374bc5f.webp
+!docs/7667d2c7e0fb.webp
+!docs/883f98d1a516.webp
+!docs/9201669dd53e.webp
+!docs/9bbe5a594430.webp
+!docs/9f2bc868ddc1.webp
+!docs/banner-order.js
+!docs/banner-preview.js
+!docs/bossy-compare-v1.webp
+!docs/bossy-editor-v1.webp
+!docs/bossy-library-v1.webp
+!docs/bossy-lyrics-v1.webp
+!docs/cadence.png
+!docs/config.js
+!docs/index.html
+!docs/site.js
+!docs/style.css

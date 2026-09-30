@@ -20,7 +20,10 @@ perform the local import.
 
 ## Download status
 
-**0.5.0 is an early-access candidate. The installer is not published yet.**
+**Cadence 0.5.0 is available as free Windows early access.**
+
+[Download for Windows](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-Setup-0.5.0-release-r5.exe) · [Release and checksums](https://github.com/FTPAiYT/cadence/releases/tag/v0.5.0)
+
 The Windows package includes matching video-component sources and notices.
 Cadence 0.5 is free to use, including for commercial video work; selling Cadence
 itself requires permission. Separate third-party license rights are preserved. See
@@ -29,11 +32,10 @@ other repositories or treat GitHub's automatic “Source code” ZIP as the app.
 
 | Package | Status |
 | --- | --- |
-| Windows 10 or newer, x64 | Prepared locally; unsigned; publication pending |
+| Windows 10 or newer, x64 | Available now; unsigned |
 | macOS | No package available yet |
 
-When published, the installer will be a **release asset** under this repository's
-Releases tab. The exact filename, size and SHA-256 are recorded in
+The installer is a **release asset** under this repository's Releases tab. The exact filename, size and SHA-256 are recorded in
 [the package manifest](releases/windows-x64.json) and [SHA256SUMS](SHA256SUMS).
 
 ## What comes in the Windows download
@@ -43,7 +45,7 @@ Releases tab. The exact filename, size and SHA-256 are recorded in
 - Whisper and its large-v3-turbo speech model for editable lyrics and timings.
 - Private Python runtimes and video-processing dependencies.
 
-The current candidate is **1.85 GB to download**, approximately **2.61 GB installed**.
+The download is **1.85 GB to download**, approximately **2.61 GB installed**.
 Allow room for both during setup, plus your footage, previews and exports.
 Transcription runs on CPU; speed depends on your computer. Singing can require
 corrections to generated words and timings.
@@ -70,6 +72,5 @@ or automatically put footage on the timeline.
 [Agent helper](AGENT_CONNECTION.md) · [Troubleshooting](TROUBLESHOOTING.md) ·
 [Data and privacy](PRIVACY.md) · [Included software](THIRD_PARTY.md)
 
-This repository holds distribution instructions. It does not contain the private
-development checkout, personal projects, footage, connection credentials or history.
+This repository holds distribution instructions and the landing page with selected demo artwork and screenshots. It does not contain the private development checkout, personal project files, original footage, connection credentials or development history.
 Pricing, future updates and Mac availability are not promised by this preview.

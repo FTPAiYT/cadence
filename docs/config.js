@@ -1,6 +1,6 @@
 // Set only verified public URLs. Never point this at the private development checkout.
 window.CADENCE_SITE = Object.freeze({
-  published: false,
+  published: true,
   banner: {
     version: 'bossy-seven-cloud-first-v2',
     first: '9201669dd53e',
@@ -14,7 +14,7 @@ window.CADENCE_SITE = Object.freeze({
       { id: '9bbe5a594430', label: 'holographic orange puffer / wardrobe', width: 1648, height: 2944, x: 50, y: 26 }
     ]
   },
-  repositoryUrl: '',
-  windowsDownloadUrl: '',
-  releaseNotice: 'The installer is built. The public download is not live yet.'
+  repositoryUrl: 'https://github.com/FTPAiYT/cadence',
+  windowsDownloadUrl: 'https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-Setup-0.5.0-release-r5.exe',
+  releaseNotice: 'Windows 0.5 early access is available. The installer is unsigned.'
 });

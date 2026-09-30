@@ -17,6 +17,6 @@ encoding happens in a separate FFmpeg/x264 executable through standard media
 files/pipes. The GPL encoder retains its GPL rights and source availability.
 These materials replace the earlier incomplete Gyan/PyAV binary collection.
 
-The installer is still unsigned and unpublished. This repository remains private;
-these local documents are not evidence that a release asset is available.
+The matching archive is also available as a separate [release asset](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-0.5.0-codec-sources.zip).
+The Windows installer is unsigned.
 See [third-party components](THIRD_PARTY.md) and [release status](RELEASE_NOTES.md).
