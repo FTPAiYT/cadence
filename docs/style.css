@@ -61,3 +61,6 @@ body.banner-picker-open .hero{height:calc(100svh - var(--banner-toolbar-height,1
 .hero.banner-hide-text>.navigation .brand,.hero.banner-hide-text>.navigation nav>a{visibility:hidden}
 @media(max-width:1000px){.hero .navigation nav>a:not(.nav-cta){display:none}.hero .navigation nav{gap:12px}}
 @media(max-width:600px){.hero .navigation{gap:12px;min-height:44px;margin-bottom:22px}.hero .navigation .brand-mark{width:44px;height:44px}.hero .navigation nav{gap:8px}.hero h1{margin-top:26px}}
+
+/* Keep installation expectations visible outside the collapsed FAQ. */
+.install-note{margin-top:32px;padding:22px 24px;border:1px solid #79952f;border-radius:8px;max-width:860px;background:#ffffff36}.install-note h3{font-size:19px;font-weight:600;margin:0 0 10px}.install-note p{font-size:15px;line-height:1.7;margin:0;color:#263219}.install-note a,.faq p a{text-decoration:underline;text-underline-offset:3px}.install-note+.faq{margin-top:40px}
