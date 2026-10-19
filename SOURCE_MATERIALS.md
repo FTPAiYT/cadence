@@ -1,5 +1,19 @@
 # Video-component source materials
 
+## Mac
+
+The Mac release has a matching
+[`Cadence-0.5.0-mac-codec-sources.zip`](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-0.5.0-mac-codec-sources.zip)
+asset containing the pinned FFmpeg, x264 and PyAV sources, the Mac build recipe
+and dependency lock. SHA-256:
+`2d13b7fbe53be21b0b132b89dd588b332cd7d9b727f14eba135ee24eecc8140c`.
+Mac LGPL decoder dylibs remain replaceable; the GPL encoder is a separate
+executable. Notices are in `Cadence.app/Contents/Resources/THIRD-PARTY-NOTICES`.
+The source ZIP is for those components; it is not the Mac application. Download
+the DMG to use Cadence. No compilation is needed.
+
+## Windows
+
 The current Windows package includes
 `CODEC-SOURCES/Cadence-0.5.0-codec-sources.zip` in the installed application folder.
 Its SHA-256 is `346a0237419c9d488b36f3b274a34e466eb9238adea5dd34c3082bd4ca0b339a`.

@@ -9,22 +9,24 @@ and export an MP4.
 Copy this repository's URL into an agent that can work with files on your computer:
 
 > Help me get started with Cadence using this repository. Read README.md and
-> AGENTS.md, find the published Windows installer, and help me install and open it.
+> AGENTS.md, check my operating system, processor and OS version, then find the
+> compatible published download and help me install and open it. Stop if my
+> computer is unsupported; never download an installer for another OS.
 > Connect using File → Connect your agent. Ask how I make videos, where the
 > finished files arrive, and which song or project they are for. Bring the clips
 > I choose into a named bin for review. Preserve my files and existing edits.
 
 The agent handles the technical setup. You provide the creative choices and any
-required Windows approval. A remote chat without access to your files cannot
+required operating-system approval. A remote chat without access to your files cannot
 perform the local import.
 
 ## Download status
 
-**Cadence 0.5.0 is available as free Windows early access.**
+**Cadence 0.5.0 is free early access for Windows and Apple Silicon Mac.**
 
-[Download for Windows](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-Setup-0.5.0-release-r5.exe) · [Release and checksums](https://github.com/FTPAiYT/cadence/releases/tag/v0.5.0)
+[Download for Mac](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-0.5.0-mac-arm64-beta-r4.dmg) · [Download for Windows](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-Setup-0.5.0-release-r5.exe) · [Release and checksums](https://github.com/FTPAiYT/cadence/releases/tag/v0.5.0)
 
-The Windows package includes matching video-component sources and notices.
+Both packages include third-party notices and have matching video-component sources.
 Cadence 0.5 is free to use, including for commercial video work; selling Cadence
 itself requires permission. Separate third-party license rights are preserved. See
 [release status](RELEASE_NOTES.md). Do not download similarly named files from
@@ -33,25 +35,35 @@ other repositories or treat GitHub's automatic “Source code” ZIP as the app.
 | Package | Status |
 | --- | --- |
 | Windows 10 or newer, x64 | Available now; unsigned |
-| macOS | No package available yet |
+| Mac with M1 or newer, macOS 14+ | [Mac beta: download, drag to Applications, open](SETUP-MAC.md); not Apple verified |
 
-The installer is a **release asset** under this repository's Releases tab. The exact filename, size and SHA-256 are recorded in
-[the package manifest](releases/windows-x64.json) and [SHA256SUMS](SHA256SUMS).
+Intel Macs, older macOS versions, Linux and native Windows ARM are not supported
+by these downloads. GitHub does not choose a platform for you; use the labelled
+package above. The same repository link works for your local agent on either
+supported platform.
 
-## What comes in the Windows download
+Downloads are **release assets** under this repository's Releases tab. Their exact filenames, sizes and SHA-256 hashes are recorded in
+the [Windows manifest](releases/windows-x64.json), [Mac manifest](releases/macos-arm64.json) and [SHA256SUMS](SHA256SUMS).
+
+**On a Mac:** [download the DMG](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-0.5.0-mac-arm64-beta-r4.dmg), drag Cadence into Applications and
+open it. Everything is included. macOS may require you to approve this beta under
+Privacy & Security because it is not Developer ID signed or notarized.
+
+## What comes in either download
 
 - The Cadence desktop app, review workspace and music-video editor.
 - Local agent connection and import helper; no separate MCP server required.
 - Whisper and its large-v3-turbo speech model for editable lyrics and timings.
 - Private Python runtimes and video-processing dependencies.
 
-The download is **1.85 GB to download**, approximately **2.61 GB installed**.
+The Mac download is **1.81 GB**; the Windows download is **1.85 GB**.
+Installation unpacks the downloaded files into a larger app.
 Allow room for both during setup, plus your footage, previews and exports.
 Transcription runs on CPU; speed depends on your computer. Singing can require
 corrections to generated words and timings.
 
 Python, FFmpeg and Whisper need no separate installation. Existing installations
-are left untouched. Setup reuses Microsoft WebView2, or installs it using an
+are left untouched. Windows setup reuses Microsoft WebView2, or installs it using an
 internet connection if it is missing. Your agent, video-generation services and
 their credits are separate.
 
@@ -73,4 +85,4 @@ or automatically put footage on the timeline.
 [Data and privacy](PRIVACY.md) · [Included software](THIRD_PARTY.md)
 
 This repository holds distribution instructions and the landing page with selected demo artwork and screenshots. It does not contain the private development checkout, personal project files, original footage, connection credentials or development history.
-Pricing, future updates and Mac availability are not promised by this preview.
+This is an early-access beta. Future updates and additional supported platforms are not promised.

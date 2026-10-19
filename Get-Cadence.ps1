@@ -41,7 +41,7 @@ if (-not $Repository -or -not $Destination) {
     throw 'Provide this repository as owner/name and an absolute download destination.'
 }
 if (-not [Environment]::Is64BitOperatingSystem -or [Environment]::OSVersion.Platform -ne 'Win32NT') {
-    throw 'This package requires Windows x64. There is no Mac package in this release.'
+    throw 'This downloader requires Windows x64. On a supported Mac, follow SETUP-MAC.md instead.'
 }
 $cadenceNativeArchitecture = if ($env:PROCESSOR_ARCHITEW6432) { $env:PROCESSOR_ARCHITEW6432 } else { $env:PROCESSOR_ARCHITECTURE }
 if ($cadenceNativeArchitecture -ne 'AMD64') {

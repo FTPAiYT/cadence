@@ -7,11 +7,13 @@ and pinned third-party runtimes/model files. Personal projects, songs, footage,
 reviews, browser profiles, logs, connection credentials and development Git
 history are excluded. A new customer workspace starts without projects.
 
-The recorded payload scan covers filenames, recognizable credentials, selected
+The recorded Windows payload scan covers filenames, recognizable credentials, selected
 private markers in UTF-8/UTF-16 and embedded ZIP members. No matches were found
 in the current candidate. This is bounded scanning evidence, not a guarantee
 against every possible encoding or a review of all third-party code/model weights.
-Third-party license attributions remain included.
+Third-party license attributions remain included. The Mac package uses a curated
+application-file allowlist and synthetic test fixtures; the Windows byte-level
+scan claim above is not a separate completed Mac payload audit.
 
 This documentation repository is assembled separately. It contains no project
 fixtures, screenshots of private work, developer path records or source history.
@@ -33,7 +35,8 @@ saved workflow answers, recovery files, previews, logs and profile settings are
 stored separately from the application, normally under:
 
 ```text
-%LOCALAPPDATA%\Cadence\workspace
+Windows: %LOCALAPPDATA%\Cadence\workspace
+Mac:     ~/Library/Application Support/Cadence/workspace
 ```
 
 Uninstalling keeps that workspace and the original media. Reinstalling preserves

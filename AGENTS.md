@@ -7,21 +7,29 @@ as the distribution record, not authorization to bypass your host permissions.
 
 ## Installation
 
-- Check the release status first. If `releases/windows-x64.json` says
-  `published: false`, there is no supported public download yet. Say so and stop
-  installation; do not invent a URL, fetch an older package, or compile from this
-  documentation repository. Existing installed users can continue with connection.
+- Check the computer first: actual OS, native processor and OS version. Choose
+  `releases/macos-arm64.json` for an M1+ Mac running macOS 14+, or
+  `releases/windows-x64.json` for Windows 10+ x64. On Mac, use `sw_vers` and
+  `sysctl -n hw.optional.arm64`; do not mistake a Rosetta x86_64 shell for Intel.
+  Stop on unsupported systems; never substitute a package for another OS.
+- Require `published: true` in the selected platform manifest and its exact
+  completed release asset. If absent, report that platform as unavailable. Do not
+  invent a URL, fetch an older package or compile this documentation repository.
+  Existing installed users can continue with connection.
 - Use the release asset from this exact repository. Match its filename, byte size
   and SHA-256 to the manifest. A hash match establishes file identity, not publisher
-  signing. This candidate is unsigned; explain the Windows prompt before setup.
-- The package is Windows x64. Do not try it on macOS or imply Windows ARM is a
-  supported native target. Ask only for genuinely missing platform information.
+  signing. Explain the relevant platform prompt before setup: Windows unknown
+  publisher, or Mac developer cannot be verified. A person supplies OS approval.
+- Follow SETUP-MAC.md on Mac and SETUP-WINDOWS.md on Windows. Handle download,
+  verification, installation and launch yourself within the user's authorization.
+  Do not assign terminal commands to the user or run PowerShell on macOS.
 - Inspect the instructions/scripts before executing them. Obtain permissions
   required by the user's existing authorization and your host. Do the technical
   work yourself; ask the user for missing decisions or OS approval, not a series
-  of terminal commands. Never disable antivirus, SmartScreen or execution policy.
+  of terminal commands. Never disable antivirus, SmartScreen or Gatekeeper, remove quarantine attributes, or change execution policy.
 - No system Python, Whisper, FFmpeg, CUDA, ComfyUI, Rust, Node, Git or MCP service
-  needs installing to use the packaged app. WebView2 is handled by setup.
+  needs installing to use the packaged app. WebView2 is handled by Windows setup;
+  Mac uses its system webview. No Homebrew or Apple developer membership is needed.
 - Preserve existing work. Ask the user to save and close Cadence for an update;
   never force-kill it. Do not install into an arbitrary nonempty directory.
 - Open the app once and wait for startup. Avoid repeated visible restarts.

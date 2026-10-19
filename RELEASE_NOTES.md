@@ -1,6 +1,23 @@
-# Cadence 0.5.0 — Windows early access
+# Cadence 0.5.0 — Windows early access and Mac beta
 
-**[Windows download available](https://github.com/FTPAiYT/cadence/releases/tag/v0.5.0).** This repository is the setup handoff. No Mac installer is available yet.
+**[Downloads and checksums](https://github.com/FTPAiYT/cadence/releases/tag/v0.5.0).** This repository is the setup handoff for both platforms.
+
+## Mac beta
+
+For M1 or newer Macs running macOS 14+. Download
+`Cadence-0.5.0-mac-arm64-beta-r4.dmg`, drag Cadence into Applications and open it.
+The editor, video tools, Whisper and its model are included. No Python or
+Homebrew setup is needed. This beta is not Developer ID signed or notarized;
+see [Mac setup](SETUP-MAC.md) for Apple's first-launch confirmation.
+
+The exact downloaded DMG passed the automated Mac workflow, including native
+playback, export, offline lyrics, agent import and safe saving/shutdown.
+[Verification and remaining beta feedback items](MACOS-VERIFICATION.md).
+Package identity: [Mac manifest](releases/macos-arm64.json).
+
+Intel Macs and macOS versions below 14 are not supported by this package.
+
+## Windows early access
 
 ## Included behavior
 
@@ -40,7 +57,7 @@ full package went through every installation path. WebView2 installation when
 missing, physical audio, every media format and full-song lyric accuracy are not
 promised here.
 
-No automatic updates, Mac package, GPU lyrics acceleration, perfect transcription,
+No automatic updates, GPU lyrics acceleration, perfect transcription,
 or generation-service credits are included in this release claim.
 
 ## Included notices

@@ -5,13 +5,15 @@ work intact and avoid repeated visible app launches.
 
 | What happened | Next step |
 | --- | --- |
-| No published Windows asset | The release is not available. Do not use an unrelated repository or automatic source ZIP. |
+| No published asset for this platform | The release is not available. Do not use an unrelated repository or automatic source ZIP. |
 | Download size/hash differs | Do not run it. Keep the mismatch report, download a fresh copy from the same official release into a new filename, and compare again. |
+| Mac cannot verify the developer | Follow SETUP-MAC.md: after an initial opening attempt, the person may approve Open Anyway in Privacy & Security. Never remove quarantine attributes or disable Gatekeeper. |
+| Unsupported Mac | This beta requires M1 or newer and macOS 14+. Do not download the Windows file or install developer tools as a workaround. |
 | Windows shows an unknown publisher | This candidate is unsigned. Explain the prompt and let the user make the Windows approval decision; do not disable security tools. |
 | Setup says Cadence is open | Ask the user to save and close it, then retry setup. Never force-kill an active edit. |
 | WebView2 setup fails | Check internet access and the Microsoft runtime error. Use Microsoft's supported installer/recovery instructions; do not fetch a random runtime. |
 | Setup refuses a destination | Use the default per-user location or a recognized Cadence installation. Do not clear an unrelated nonempty folder to force installation. |
-| App cannot start | Read the on-screen error and its named backend log. Default log: `%LOCALAPPDATA%\Cadence\workspace\logs\backend.log`. Inspect only the relevant excerpt. |
+| App cannot start | Read the on-screen error and its named backend log. Default Windows log: `%LOCALAPPDATA%\Cadence\workspace\logs\backend.log`. On Mac: `~/Library/Application Support/Cadence/workspace/logs/backend.log`. Inspect only the relevant excerpt. |
 | Engine missing or interrupted update | Save/close if possible, then rerun the same verified installer. Do not install packages into the private runtime with pip. |
 | Port occupied | Inspect the named port and owning process. If it is another Cadence instance, bring that instance forward. Never terminate an unknown process. |
 | Connection file missing | Keep Cadence open and enable **File → Connect your agent**. Use the exact path it supplies. |
@@ -22,11 +24,11 @@ work intact and avoid repeated visible app launches.
 | Clips are present but not showing | Use **View videos** or open the named bin in Review. An import does not populate the editing timeline. |
 | Lyrics are imperfect | Edit generated words/timings. Singing, backing vocals and layered mixes can need corrections. |
 | Lyrics feel slow | This package uses CPU. It does not promise GPU acceleration; do not install CUDA or replace its runtime as a generic fix. |
-| Existing projects are missing | Confirm the Windows account and workspace location. Check whether the user used an older portable copy. Preview the documented migration before applying it; never reset the workspace. |
+| Existing projects are missing | Confirm the OS user account and platform-specific workspace location. Check whether the user used an older portable copy. Preview the documented migration before applying it; never reset the workspace. |
 
 ## Collect a useful report
 
-With the user's permission, describe the Cadence version, Windows version and
+With the user's permission, describe the Cadence version, operating-system version and
 architecture, the exact step, and the visible error. A narrowly selected log
 excerpt may help. Redact usernames, personal paths, project names and credentials.
 

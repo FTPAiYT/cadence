@@ -7,16 +7,20 @@ The installer retains third-party notices, licenses and dependency records under
 | --- | --- |
 | Python | Isolated application and speech runtimes |
 | NumPy and Pillow | Numeric and image support |
-| PyAV 18 / LGPL-only FFmpeg 8.1.2 / dav1d | Media decoding and processing |
+| PyAV 18 / LGPL-only FFmpeg 8.1.2 | Media decoding and processing |
+| dav1d | Additional Windows media decoder |
 | Standalone FFmpeg 8.1.2 / x264 | H.264/AAC MP4 encoding, GPL 2 or later |
 | OpenAI Whisper, CPU PyTorch, large-v3-turbo | Local lyrics transcription and timing |
-| Microsoft WebView2 | Desktop webview; reused or installed by setup |
+| Microsoft WebView2 | Windows webview; reused or installed by Windows setup |
+| Apple WKWebView | Mac webview provided by macOS |
 | Tauri | Desktop window and lifecycle |
 | NSIS | Windows installer |
 
-The exact video-component sources, build scripts and license texts are included
-inside the download. See [source materials](SOURCE_MATERIALS.md). The LGPL DLLs
-remain replaceable. Cadence's application terms preserve the libraries'
+Windows includes video-component sources, build scripts and license texts inside
+the download. Mac has a matching `Cadence-0.5.0-mac-codec-sources.zip` release asset
+and notices inside `Cadence.app/Contents/Resources/THIRD-PARTY-NOTICES`. Mac uses
+replaceable LGPL dylibs for decoding and a separate GPL encoder executable.
+See [source materials](SOURCE_MATERIALS.md). Cadence's application terms preserve the libraries'
 modification/debugging rights and all separate third-party redistribution rights.
 
 Cadence 0.5 is free to use, including to make commercial or client videos. Its own

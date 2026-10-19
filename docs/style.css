@@ -98,5 +98,8 @@ body.banner-picker-open .hero{height:calc(100svh - var(--banner-toolbar-height,1
 .storage-details p{margin:14px 0 0;line-height:1.6}
 @media(max-width:700px){.download-explainer{grid-template-columns:1fr;gap:32px;margin-top:28px;padding:28px 0}.package-intro{font-size:20px}.download-fact strong{font-size:56px}.storage-details{font-size:17px}}
 
+.download-options{display:flex;flex-wrap:wrap;gap:24px;margin-top:24px}.platform-download{min-width:230px}.download-options .outline{margin:0}.platform-download p{font-size:14px;line-height:1.6;margin:10px 0;color:#536047}.setup-link{display:inline-block;font-size:14px;text-decoration:underline;text-underline-offset:3px}.download-fact .package-bundle{white-space:normal;font-size:clamp(30px,3vw,48px);line-height:1.15}.install-note p+p{margin-top:14px}
+@media(max-width:600px){.download-options{display:grid;grid-template-columns:1fr}.platform-download{min-width:0}.download-options .button{width:100%;justify-content:space-between}.platform-download p{font-size:14px}}
+
 /* Keep installation expectations visible outside the collapsed FAQ. */
 .install-note{margin-top:32px;padding:22px 24px;border:1px solid #79952f;border-radius:8px;max-width:860px;background:#ffffff36}.install-note h3{font-size:19px;font-weight:600;margin:0 0 10px}.install-note p{font-size:15px;line-height:1.7;margin:0;color:#263219}.install-note a,.faq p a{text-decoration:underline;text-underline-offset:3px}.install-note+.faq{margin-top:40px}

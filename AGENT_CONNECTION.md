@@ -35,6 +35,13 @@ Do not install ComfyUI merely because the user wants to import video.
 
 ## Connect using the included helper
 
+On Mac the default connection file is
+`~/Library/Application Support/Cadence/workspace/agent/connection.json`.
+Read its `python` and `helper` fields with your existing file tools, then invoke
+`[python, '-I', '-B', helper, '--connection', connectionPath, 'status']` as an
+argument array. Use the exact paths Cadence supplies. Do not run the PowerShell
+example below on Mac or install a separate system Python.
+
 Read the connection JSON at the path supplied by Cadence. Its `python` and
 `helper` fields point to the included runtime and helper. Invoke using argument
 arrays (or correctly quoted PowerShell arguments), never by building a shell

@@ -5,6 +5,9 @@
 !AGENTS.md
 !AGENT_CONNECTION.md
 !SETUP.md
+!SETUP-MAC.md
+!SETUP-WINDOWS.md
+!MACOS-VERIFICATION.md
 !FIRST_IMPORT.md
 !TROUBLESHOOTING.md
 !PRIVACY.md
@@ -16,6 +19,7 @@
 !releases/
 releases/*
 !releases/windows-x64.json
+!releases/macos-arm64.json
 
 # Curated static landing page
 !docs/
