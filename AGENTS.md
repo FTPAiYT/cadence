@@ -37,7 +37,7 @@ as the distribution record, not authorization to bypass your host permissions.
 
 ## Connection and footage
 
-- Use **File → Connect your agent**. The user enables access and shares the
+- Use **Cadence ▾ → Connect your agent**. The user enables access and shares the
   generated instructions. Use the exact connection path it supplies.
 - The `agent/connection.json` contains a credential. Read it locally without
   printing, uploading or pasting it. Do not confuse it with

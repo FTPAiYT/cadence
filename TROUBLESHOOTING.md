@@ -16,7 +16,7 @@ work intact and avoid repeated visible app launches.
 | App cannot start | Read the on-screen error and its named backend log. Default Windows log: `%LOCALAPPDATA%\Cadence\workspace\logs\backend.log`. On Mac: `~/Library/Application Support/Cadence/workspace/logs/backend.log`. Inspect only the relevant excerpt. |
 | Engine missing or interrupted update | Save/close if possible, then rerun the same verified installer. Do not install packages into the private runtime with pip. |
 | Port occupied | Inspect the named port and owning process. If it is another Cadence instance, bring that instance forward. Never terminate an unknown process. |
-| Connection file missing | Keep Cadence open and enable **File → Connect your agent**. Use the exact path it supplies. |
+| Connection file missing | Keep Cadence open and enable **Cadence ▾ → Connect your agent**. Use the exact path it supplies. |
 | Connection rejected or session changed | Reread the connection file after restart/reset. Reconnect with the included helper; do not guess ports or show the token. |
 | Connection disabled | The user can enable it again in Cadence. Do not edit the JSON to bypass that choice. |
 | A clip is rejected | Read the per-file reason. Confirm it is a completed, readable video rather than a partial download or active render. |

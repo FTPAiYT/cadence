@@ -32,7 +32,7 @@ macOS or install extra developer tools to use the packaged application.
 
 ## After opening Cadence
 
-Open **File → Connect your agent → Enable and copy instructions** and paste those
+Open **Cadence ▾ → Connect your agent → Enable and copy instructions** and paste those
 instructions into your local agent. Tell it where your completed clips are and
 which project they belong to. It can import them into a named bin for review.
 

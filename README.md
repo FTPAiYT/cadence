@@ -12,7 +12,7 @@ Copy this repository's URL into an agent that can work with files on your comput
 > AGENTS.md, check my operating system, processor and OS version, then find the
 > compatible published download and help me install and open it. Stop if my
 > computer is unsupported; never download an installer for another OS.
-> Connect using File → Connect your agent. Ask how I make videos, where the
+> Connect using Cadence ▾ → Connect your agent. Ask how I make videos, where the
 > finished files arrive, and which song or project they are for. Bring the clips
 > I choose into a named bin for review. Preserve my files and existing edits.
 
@@ -70,7 +70,7 @@ their credits are separate.
 ## Start with your first batch
 
 1. Install and open Cadence using the published release.
-2. Open **File → Connect your agent → Enable and copy instructions**.
+2. Open **Cadence ▾ → Connect your agent → Enable and copy instructions**.
 3. Paste those instructions into your local agent. Tell it how you make videos
    and where the completed clips arrive.
 4. Ask it to bring a specific batch into a named bin. In Cadence, choose

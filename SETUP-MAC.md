@@ -26,7 +26,8 @@ that restriction. [Apple explains these prompts](https://support.apple.com/10244
 
 ## Connect your agent
 
-Open **File → Connect your agent → Enable and copy instructions**, then paste
+Inside the Cadence window, click **Cadence ▾** at the top left, then
+**Connect your agent → Enable and copy instructions**. Paste
 the instructions into your local agent. The included helper points to the Mac's
 own bundled runtime. An agent needs local file/process access to import footage;
 a remote chat cannot operate the Mac's files by itself.

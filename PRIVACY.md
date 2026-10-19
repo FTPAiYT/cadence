@@ -21,7 +21,7 @@ fixtures, screenshots of private work, developer path records or source history.
 ## While using Cadence
 
 The app and local agent helper communicate over loopback on the same computer.
-Agent access is off until enabled in **File → Connect your agent**. The generated
+Agent access is off until enabled in **Cadence ▾ → Connect your agent**. The generated
 connection file contains a credential; keep it private. The user can disconnect
 or reset access in the app. Only connect an agent trusted to access local files.
 

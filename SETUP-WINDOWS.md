@@ -54,7 +54,7 @@ Setup does not launch Cadence. Open the installed shortcut after completion.
 
 ## Connect
 
-1. In Cadence, open **File → Connect your agent**.
+1. In Cadence, open **Cadence ▾ → Connect your agent**.
 2. Choose **Enable and copy instructions**.
 3. Paste into the local agent. Keep Cadence open while it works.
 
