@@ -27,8 +27,6 @@
     generation++;
     $('#banner-cycle').textContent = 'Preview cycle';
     $('#banner-cycle').setAttribute('aria-pressed', 'false');
-    $('#banner-pause').textContent = 'Play cycle';
-    $('#banner-pause').hidden = false;
   }
   function renderFavourites() {
     const list = favourites(), marked = preferences.favourites.includes(references[index]?.id);
@@ -140,8 +138,6 @@
     cycling = true;
     $('#banner-cycle').textContent = 'Pause cycle';
     $('#banner-cycle').setAttribute('aria-pressed', 'true');
-    $('#banner-pause').hidden = false;
-    $('#banner-pause').textContent = 'Pause cycle';
     const first = favourites().find(item => item.id === banner?.first) || favourites()[0];
     await show(references.indexOf(first), references[index]?.id !== first.id);
     if (!cycling) return;
@@ -150,7 +146,6 @@
     scheduleCycle();
   }
   $('#banner-cycle').addEventListener('click', startCycle);
-  $('#banner-pause').addEventListener('click', () => cycling ? stopCycle() : startCycle());
   $('#banner-copy-favourites').addEventListener('click', async () => {
     const text = 'Cadence banner favourites (#10 first, then shuffled):\n' + favourites().map(item => {
       const position = preferences.positions[item.id] || { x: 50, y: item.height > item.width ? 26 : 50 };
