@@ -1,5 +1,9 @@
 # Setup and connection help
 
+**Windows projects missing after an agent launch?** Preserve both workspaces.
+See [Windows workspace recovery](WINDOWS-WORKSPACE-RECOVERY.md) before creating
+replacement projects or moving any files. Windows r6 adds a startup safeguard.
+
 Inspect the specific failure before restarting or reinstalling. Keep the user's
 work intact and avoid repeated visible app launches.
 

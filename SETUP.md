@@ -6,7 +6,7 @@ Whisper and its lyrics model. No separate Python or model installation is needed
 | Your computer | Download | Setup |
 | --- | --- | --- |
 | Mac with M1 or newer, macOS 14+ | [Mac disk image (.dmg)](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-0.5.0-mac-arm64-beta-r4.dmg) | [Download, drag to Applications, open](SETUP-MAC.md) |
-| Windows 10+, x64 | [Windows installer (.exe)](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-Setup-0.5.0-release-r5.exe) | [Windows setup](SETUP-WINDOWS.md) |
+| Windows 10+, x64 | [Windows installer (.exe)](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-Setup-0.5.0-release-r6.exe) | [Windows setup](SETUP-WINDOWS.md) |
 
 Intel Macs, macOS versions below 14, Linux and native Windows ARM are not supported
 by these packages. Do not try the Windows file on a Mac or use GitHub's automatic

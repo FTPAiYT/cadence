@@ -33,6 +33,9 @@ as the distribution record, not authorization to bypass your host permissions.
 - Preserve existing work. Ask the user to save and close Cadence for an update;
   never force-kill it. Do not install into an arbitrary nonempty directory.
 - Open the app once and wait for startup. Avoid repeated visible restarts.
+  On Windows, launch via Explorer as documented in SETUP-WINDOWS.md, especially
+  from MSIX hosts. If projects seem missing, preserve both workspaces and follow
+  WINDOWS-WORKSPACE-RECOVERY.md; do not recreate or silently merge them.
   Inspect the named error/log before deciding whether a restart is useful.
 
 ## Connection and footage

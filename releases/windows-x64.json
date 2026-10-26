@@ -6,12 +6,12 @@
   "platform": "windows-x64",
   "published": true,
   "tag": "v0.5.0",
-  "asset": "Cadence-Setup-0.5.0-release-r5.exe",
-  "bytes": 1851984762,
-  "sha256": "7497a7a7cdc2c1668d9a1edba3e2983dd9ec3003710d90c22db6afe8b03658fe",
-  "installedPayloadBytes": 2607131772,
+  "asset": "Cadence-Setup-0.5.0-release-r6.exe",
+  "bytes": 1851993760,
+  "sha256": "df3a6008df59f4305f12856f6a438a8509e1347753ee09a8901887cfecaa3253",
+  "installedPayloadBytes": 2607160355,
   "signed": false,
   "includesWhisper": true,
   "minimumWindows": "10",
-  "status": "Windows 0.5 early access is available from this repository. Unsigned installer; Whisper and matching video-component sources included."
+  "status": "Windows 0.5 early access r6 includes the MSIX-agent workspace launch safeguard. Unsigned; existing workspaces are never automatically merged."
 }

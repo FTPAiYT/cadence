@@ -1,5 +1,9 @@
 # Working with your user's videos in Cadence
 
+On Windows, launch the installed app through Explorer from packaged agent hosts.
+See [safe launch and workspace recovery](WINDOWS-WORKSPACE-RECOVERY.md).
+Never delete or blindly merge workspaces if projects appear missing.
+
 You are the user's existing local agent. Talk to them in your normal conversation.
 Cadence provides review/editing and local import; it does not require an agent
 account, cloud-generation account, MCP server, or a new Python installation.

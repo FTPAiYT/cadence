@@ -19,6 +19,19 @@ Intel Macs and macOS versions below 14 are not supported by this package.
 
 ## Windows early access
 
+### October 26: Windows r6 workspace fix
+
+- Detects redirected AppData writes before starting the workspace, backend or WebView.
+- Hands off through Explorer and waits for confirmation; failed or recursive handoff stops safely.
+- Retains both older and packaged recovery-profile layouts during explicit migration.
+- Refuses silent merges, overwrites and discarded custom-workspace/command-line settings.
+- Existing package-cache projects are not moved automatically. See [safe launch and recovery](WINDOWS-WORKSPACE-RECOVERY.md).
+- Native launch/save/reopen and exact-package migration checks passed with disposable data.
+  Redirected-path checks used simulation plus real Explorer handoff; a fresh actual
+  Claude-MSIX launch was not reproduced in this verification session.
+- The Mac package and video/lyrics dependencies are unchanged.
+
+
 ## Included behavior
 
 - Dedicated desktop window and a bundled local editing engine.
@@ -40,10 +53,10 @@ Intel Macs and macOS versions below 14 are not supported by this package.
 
 | Field | Released package |
 | --- | --- |
-| File | `Cadence-Setup-0.5.0-release-r5.exe` |
-| Bytes | `1851984762` |
-| SHA-256 | `7497a7a7cdc2c1668d9a1edba3e2983dd9ec3003710d90c22db6afe8b03658fe` |
-| Installed payload bytes | `2607131772` |
+| File | `Cadence-Setup-0.5.0-release-r6.exe` |
+| Bytes | `1851993760` |
+| SHA-256 | `df3a6008df59f4305f12856f6a438a8509e1347753ee09a8901887cfecaa3253` |
+| Installed payload bytes | `2607160355` |
 | Publisher signature | Unsigned |
 | Platform | Windows x64 |
 

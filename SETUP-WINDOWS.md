@@ -1,6 +1,6 @@
 # Install Cadence for Windows
 
-[Download Cadence 0.5.0 for Windows](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-Setup-0.5.0-release-r5.exe).
+[Download Cadence 0.5.0 for Windows](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-Setup-0.5.0-release-r6.exe).
 The exact package identity is recorded in [releases/windows-x64.json](releases/windows-x64.json).
 
 ## Requirements and download
@@ -51,6 +51,15 @@ available with `/S`. Invoke the chosen verified path as a process argument, wait
 for completion and check its exit code. A nonzero exit means investigate before
 claiming installation succeeded. Do not override the install location casually.
 Setup does not launch Cadence. Open the installed shortcut after completion.
+
+Agents should launch through Explorer to avoid MSIX-host AppData redirection:
+
+```powershell
+Start-Process -FilePath "$env:SystemRoot\explorer.exe" -ArgumentList ('"' + "$env:LOCALAPPDATA\Programs\Cadence\Cadence.exe" + '"')
+```
+
+The r6 app also detects redirected writes before startup. If projects appear
+missing, preserve both locations and follow [workspace recovery](WINDOWS-WORKSPACE-RECOVERY.md).
 
 ## Connect
 

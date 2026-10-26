@@ -24,7 +24,7 @@ perform the local import.
 
 **Cadence 0.5.0 is free early access for Windows and Apple Silicon Mac.**
 
-[Download for Mac](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-0.5.0-mac-arm64-beta-r4.dmg) · [Download for Windows](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-Setup-0.5.0-release-r5.exe) · [Release and checksums](https://github.com/FTPAiYT/cadence/releases/tag/v0.5.0)
+[Download for Mac](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-0.5.0-mac-arm64-beta-r4.dmg) · [Download for Windows](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-Setup-0.5.0-release-r6.exe) · [Release and checksums](https://github.com/FTPAiYT/cadence/releases/tag/v0.5.0)
 
 Both packages include third-party notices and have matching video-component sources.
 Cadence 0.5 is free to use, including for commercial video work; selling Cadence
