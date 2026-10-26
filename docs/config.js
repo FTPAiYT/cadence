@@ -15,8 +15,8 @@ window.CADENCE_SITE = Object.freeze({
     ]
   },
   repositoryUrl: 'https://github.com/FTPAiYT/cadence',
-  windowsDownloadUrl: 'https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-Setup-0.5.0-release-r8.exe',
+  windowsDownloadUrl: 'https://github.com/FTPAiYT/cadence/releases/download/v0.6.0/Cadence-Setup-0.6.0.exe',
   macPublished: true,
-  macDownloadUrl: 'https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-0.5.0-mac-arm64-beta-r5.dmg',
-  releaseNotice: 'Free Windows early access and Apple Silicon Mac beta. Both include the lyrics model.'
+  macDownloadUrl: 'https://github.com/FTPAiYT/cadence/releases/download/v0.6.0/Cadence-0.6.0-mac-arm64-beta.dmg',
+  releaseNotice: 'Cadence 0.6 beta for Windows and Apple Silicon Mac. Both include the lyrics model.'
 });

@@ -1,6 +1,6 @@
 # Install Cadence for Windows
 
-[Download Cadence 0.5.0 for Windows](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-Setup-0.5.0-release-r8.exe).
+[Download Cadence 0.6.0 for Windows](https://github.com/FTPAiYT/cadence/releases/download/v0.6.0/Cadence-Setup-0.6.0.exe).
 The exact package identity is recorded in [releases/windows-x64.json](releases/windows-x64.json).
 
 ## Requirements and download

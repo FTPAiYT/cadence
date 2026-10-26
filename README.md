@@ -22,12 +22,12 @@ perform the local import.
 
 ## Download status
 
-**Cadence 0.5.0 is free early access for Windows and Apple Silicon Mac.**
+**Cadence 0.6.0 is free early access for Windows and Apple Silicon Mac.**
 
-[Download for Mac](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-0.5.0-mac-arm64-beta-r5.dmg) · [Download for Windows](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-Setup-0.5.0-release-r8.exe) · [Release and checksums](https://github.com/FTPAiYT/cadence/releases/tag/v0.5.0)
+[Download for Mac](https://github.com/FTPAiYT/cadence/releases/download/v0.6.0/Cadence-0.6.0-mac-arm64-beta.dmg) · [Download for Windows](https://github.com/FTPAiYT/cadence/releases/download/v0.6.0/Cadence-Setup-0.6.0.exe) · [Release and checksums](https://github.com/FTPAiYT/cadence/releases/tag/v0.6.0)
 
 Both packages include third-party notices and have matching video-component sources.
-Cadence 0.5 is free to use, including for commercial video work; selling Cadence
+Cadence 0.6 is free to use, including for commercial video work; selling Cadence
 itself requires permission. Separate third-party license rights are preserved. See
 [release status](RELEASE_NOTES.md). Do not download similarly named files from
 other repositories or treat GitHub's automatic “Source code” ZIP as the app.
@@ -45,7 +45,7 @@ supported platform.
 Downloads are **release assets** under this repository's Releases tab. Their exact filenames, sizes and SHA-256 hashes are recorded in
 the [Windows manifest](releases/windows-x64.json), [Mac manifest](releases/macos-arm64.json) and [SHA256SUMS](SHA256SUMS).
 
-**On a Mac:** [download the DMG](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-0.5.0-mac-arm64-beta-r5.dmg), drag Cadence into Applications and
+**On a Mac:** [download the DMG](https://github.com/FTPAiYT/cadence/releases/download/v0.6.0/Cadence-0.6.0-mac-arm64-beta.dmg), drag Cadence into Applications and
 open it. Everything is included. macOS may require you to approve this beta under
 Privacy & Security because it is not Developer ID signed or notarized.
 

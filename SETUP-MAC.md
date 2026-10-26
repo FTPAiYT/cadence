@@ -4,7 +4,7 @@
 
 ## Install
 
-1. [Download Cadence for Mac](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-0.5.0-mac-arm64-beta-r5.dmg) and open the `.dmg` file.
+1. [Download Cadence for Mac](https://github.com/FTPAiYT/cadence/releases/download/v0.6.0/Cadence-0.6.0-mac-arm64-beta.dmg) and open the `.dmg` file.
 2. Drag **Cadence** into **Applications**.
 3. Open **Cadence** from Applications.
 

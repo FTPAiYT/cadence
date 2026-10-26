@@ -1,42 +1,28 @@
 # Mac beta verification
 
-Package: `Cadence-0.5.0-mac-arm64-beta-r5.dmg`.
-Target: Apple Silicon (M1 or newer), macOS 14+.
-Built and tested October 26, 2026. The final resource update was re-signed,
-its exact DMG mounted read-only, and the app copied from that image into a
-disposable installation before verification. Deep, strict ad-hoc signature
-verification passed. It is not Developer ID signed or notarized.
+Package: `Cadence-0.6.0-mac-arm64-beta.dmg`. Apple Silicon (M1 or newer), macOS 14+.
+Built and tested October 26, 2026, in private workflow run 40409944635.
+The native app was rebuilt as 0.6.0 using the existing verified video/Python/model
+payload. The final disk image was re-signed, mounted read-only, and installed
+into disposable storage before verification. Deep strict signature checks passed.
+It is ad-hoc signed, not Developer ID signed or notarized.
 
-## Automated checks that passed
+## Passed checks
 
-- 92 shared tests using the included Python and Mac video tools.
-- Native storage helper and packaged backend startup.
-- Agent connection, project creation and import into a named bin.
-- Save and reopen an edit.
-- MP4 export and decoding: two seconds, 48 frames, 24 fps, 320 x 180.
-- Whisper transcription using bundled weights with network calls blocked.
-- Actual Tauri/WKWebView interface loading and video playback with no JavaScript
-  errors recorded, using synthetic test footage.
-- Native shutdown, persisted autosave and cleanup of the owned backend.
+22 recorded workflow checks, including 92 shared regressions,
+native startup and playback, the 0.6 beta badge, unclipped review-mode text,
+the simplified New Project form and an empty project without footage.
+Agent import, cut saving/reopening, decoded MP4 export, offline Whisper inference,
+autosave and clean native shutdown also passed using synthetic fixtures.
 
-The installed final DMG passed all 17 recorded workflow checks, including exact
-512-pixel icon identity and native connection-button dismissal/restoration. This does not establish every recipient-machine installation path.
+## Beta limits
 
-## Beta feedback still needed
-
-Physical audio listening, interaction with native file dialogs, full-song
-performance, upgrades on an existing recipient workspace and first-download
-Gatekeeper confirmation have not been verified on a recipient's Mac. The export
-used a short synthetic clip; the transcription fixture was speech, not a full
-sung track. Word accuracy and speed for music will vary.
-
-This app is ad-hoc signed for Apple Silicon executable integrity; it is not
-Apple Developer ID signed or notarized. See [Mac setup](SETUP-MAC.md) for the
-expected first-launch confirmation.
+Physical audio, native file-dialog interaction, recipient upgrades/security prompts,
+full-song performance and sung-word accuracy still need beta feedback. These checks
+do not establish every recipient installation path. See [Mac setup](SETUP-MAC.md).
 
 ## Package identity
 
-SHA-256:
-`854ae3a8e792d5497d20e0d1e0554c3a2537abae1e88f83686ea682c0864a14b`.
-Exact size: `1813087816` bytes. See [Mac manifest](releases/macos-arm64.json)
-and [all package checksums](SHA256SUMS).
+SHA-256: `bc3dacdac86ab6485b2d04b0fbf1af9a43368c745b38da6e5932b861679ce786`.
+Size: `1819742912` bytes.
+See [Mac manifest](releases/macos-arm64.json) and [checksums](SHA256SUMS).
