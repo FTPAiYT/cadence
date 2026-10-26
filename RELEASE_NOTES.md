@@ -45,4 +45,4 @@ installation path are not all covered by the automated checks.
 
 ## Verification
 
-Windows browser checks cover project creation, switching, imports, controls and text fit. The 0.6 native executable passes its bundled-engine check; the shared UI flows were also checked in the preceding native build. The Mac package passed 22 recorded checks, including native video playback, export, offline lyrics, the 0.6 badge and new project form. Both platforms retain beta limits for recipient installations and physical audio.
+Windows browser checks cover project creation, switching, imports, controls and text fit. The same workflows passed in the 0.6 native app, and its bundled-engine check passed. The Mac package passed 22 recorded checks, including native video playback, export, offline lyrics, the 0.6 badge and new project form. Both platforms retain beta limits for recipient installations and physical audio.
