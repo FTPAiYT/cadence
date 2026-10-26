@@ -1,15 +1,11 @@
 # Mac beta verification
 
-Package: `Cadence-0.5.0-mac-arm64-beta-r4.dmg`.
+Package: `Cadence-0.5.0-mac-arm64-beta-r5.dmg`.
 Target: Apple Silicon (M1 or newer), macOS 14+.
-Built and tested October 8, 2026. The distribution file was rechecked against
-its recorded SHA-256 on October 19, 2026.
-
-The application was built on an ARM64 macOS 14 runner, relocated into a folder
-with spaces and an accented character, and checked using its own native engine
-diagnostic. The exact DMG was then downloaded on another Mac runner, hash-checked,
-mounted read-only and copied into a disposable installation. The installed app
-passed its complete ad-hoc signature verification.
+Built and tested October 26, 2026. The final resource update was re-signed,
+its exact DMG mounted read-only, and the app copied from that image into a
+disposable installation before verification. Deep, strict ad-hoc signature
+verification passed. It is not Developer ID signed or notarized.
 
 ## Automated checks that passed
 
@@ -23,8 +19,8 @@ passed its complete ad-hoc signature verification.
   errors recorded, using synthetic test footage.
 - Native shutdown, persisted autosave and cleanup of the owned backend.
 
-Both the original package and the installed DMG passed all 14 recorded workflow
-checks. This does not establish every recipient-machine installation path.
+The installed final DMG passed all 17 recorded workflow checks, including exact
+512-pixel icon identity and native connection-button dismissal/restoration. This does not establish every recipient-machine installation path.
 
 ## Beta feedback still needed
 

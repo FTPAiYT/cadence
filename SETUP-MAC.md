@@ -4,7 +4,7 @@
 
 ## Install
 
-1. [Download Cadence for Mac](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-0.5.0-mac-arm64-beta-r4.dmg) and open the `.dmg` file.
+1. [Download Cadence for Mac](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-0.5.0-mac-arm64-beta-r5.dmg) and open the `.dmg` file.
 2. Drag **Cadence** into **Applications**.
 3. Open **Cadence** from Applications.
 
@@ -26,8 +26,8 @@ that restriction. [Apple explains these prompts](https://support.apple.com/10244
 
 ## Connect your agent
 
-Inside the Cadence window, click **Cadence ▾** at the top left, then
-**Connect your agent → Enable and copy instructions**. Paste
+Click **Connect your agent** at the top, then **Enable and copy instructions**.
+If you dismissed the button, use **Cadence ▾ → Connect your agent**. Paste
 the instructions into your local agent. The included helper points to the Mac's
 own bundled runtime. An agent needs local file/process access to import footage;
 a remote chat cannot operate the Mac's files by itself.

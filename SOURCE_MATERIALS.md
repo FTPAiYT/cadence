@@ -3,10 +3,10 @@
 ## Mac
 
 The Mac release has a matching
-[`Cadence-0.5.0-mac-codec-sources.zip`](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-0.5.0-mac-codec-sources.zip)
+[`Cadence-0.5.0-mac-codec-sources-r5.zip`](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-0.5.0-mac-codec-sources-r5.zip)
 asset containing the pinned FFmpeg, x264 and PyAV sources, the Mac build recipe
 and dependency lock. SHA-256:
-`2d13b7fbe53be21b0b132b89dd588b332cd7d9b727f14eba135ee24eecc8140c`.
+`4cb1199da866d75de7df780b78b72c2e64706460e98bee008c725e507ec1a1f6`.
 Mac LGPL decoder dylibs remain replaceable; the GPL encoder is a separate
 executable. Notices are in `Cadence.app/Contents/Resources/THIRD-PARTY-NOTICES`.
 The source ZIP is for those components; it is not the Mac application. Download

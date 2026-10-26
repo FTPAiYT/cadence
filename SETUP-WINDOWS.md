@@ -1,6 +1,6 @@
 # Install Cadence for Windows
 
-[Download Cadence 0.5.0 for Windows](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-Setup-0.5.0-release-r6.exe).
+[Download Cadence 0.5.0 for Windows](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-Setup-0.5.0-release-r8.exe).
 The exact package identity is recorded in [releases/windows-x64.json](releases/windows-x64.json).
 
 ## Requirements and download
@@ -63,7 +63,7 @@ missing, preserve both locations and follow [workspace recovery](WINDOWS-WORKSPA
 
 ## Connect
 
-1. In Cadence, open **Cadence ▾ → Connect your agent**.
+1. Click **Connect your agent** at the top. If dismissed, use **Cadence ▾ → Connect your agent**.
 2. Choose **Enable and copy instructions**.
 3. Paste into the local agent. Keep Cadence open while it works.
 

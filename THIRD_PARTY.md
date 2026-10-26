@@ -17,7 +17,7 @@ The installer retains third-party notices, licenses and dependency records under
 | NSIS | Windows installer |
 
 Windows includes video-component sources, build scripts and license texts inside
-the download. Mac has a matching `Cadence-0.5.0-mac-codec-sources.zip` release asset
+the download. Mac has a matching `Cadence-0.5.0-mac-codec-sources-r5.zip` release asset
 and notices inside `Cadence.app/Contents/Resources/THIRD-PARTY-NOTICES`. Mac uses
 replaceable LGPL dylibs for decoding and a separate GPL encoder executable.
 See [source materials](SOURCE_MATERIALS.md). Cadence's application terms preserve the libraries'

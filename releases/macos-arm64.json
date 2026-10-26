@@ -6,14 +6,14 @@
   "platform": "macos-arm64",
   "published": true,
   "tag": "v0.5.0",
-  "asset": "Cadence-0.5.0-mac-arm64-beta-r4.dmg",
-  "bytes": 1813087816,
-  "sha256": "854ae3a8e792d5497d20e0d1e0554c3a2537abae1e88f83686ea682c0864a14b",
+  "asset": "Cadence-0.5.0-mac-arm64-beta-r5.dmg",
+  "bytes": 1815804602,
+  "sha256": "fc808a5822a945cdce0e8d7763a2b5957f9c13ce8db86814c301d5826a4f6d74",
   "developerIDSigned": false,
   "notarized": false,
   "includesWhisper": true,
   "minimumMacOS": "14.0",
   "requiresAppleSilicon": true,
-  "codecSourcesAsset": "Cadence-0.5.0-mac-codec-sources.zip",
-  "status": "Apple Silicon Mac beta. macOS 14 or newer. No separate Python or model installation. Not Developer ID signed or notarized."
+  "codecSourcesAsset": "Cadence-0.5.0-mac-codec-sources-r5.zip",
+  "status": "Apple Silicon Mac beta r5 with the Cadence app icon and first-run agent connection button. macOS 14+. Not Developer ID signed or notarized."
 }

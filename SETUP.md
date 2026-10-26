@@ -5,8 +5,8 @@ Whisper and its lyrics model. No separate Python or model installation is needed
 
 | Your computer | Download | Setup |
 | --- | --- | --- |
-| Mac with M1 or newer, macOS 14+ | [Mac disk image (.dmg)](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-0.5.0-mac-arm64-beta-r4.dmg) | [Download, drag to Applications, open](SETUP-MAC.md) |
-| Windows 10+, x64 | [Windows installer (.exe)](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-Setup-0.5.0-release-r6.exe) | [Windows setup](SETUP-WINDOWS.md) |
+| Mac with M1 or newer, macOS 14+ | [Mac disk image (.dmg)](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-0.5.0-mac-arm64-beta-r5.dmg) | [Download, drag to Applications, open](SETUP-MAC.md) |
+| Windows 10+, x64 | [Windows installer (.exe)](https://github.com/FTPAiYT/cadence/releases/download/v0.5.0/Cadence-Setup-0.5.0-release-r8.exe) | [Windows setup](SETUP-WINDOWS.md) |
 
 Intel Macs, macOS versions below 14, Linux and native Windows ARM are not supported
 by these packages. Do not try the Windows file on a Mac or use GitHub's automatic
@@ -32,9 +32,11 @@ macOS or install extra developer tools to use the packaged application.
 
 ## After opening Cadence
 
-Open **Cadence ▾ → Connect your agent → Enable and copy instructions** and paste those
+Click **Connect your agent** at the top, then **Enable and copy instructions**, and paste those
 instructions into your local agent. Tell it where your completed clips are and
 which project they belong to. It can import them into a named bin for review.
 
 You can also use Cadence yourself without connecting an agent. Original footage
 and existing projects must be preserved during setup and updates.
+
+If you dismissed the top button, reopen it through **Cadence ▾ → Connect your agent**. The button disappears after your agent connects.

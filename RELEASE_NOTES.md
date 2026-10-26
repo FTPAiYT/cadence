@@ -4,8 +4,16 @@
 
 ## Mac beta
 
+### October 26: Mac r5 icon and agent connection
+
+The same first-run agent connection button, dismissal and centered cross are now
+included on Mac. The application/Dock icon uses the approved high-resolution
+Cadence logo. The exact re-signed disk image was mounted read-only and installed
+into disposable storage before its 17 recorded Mac workflow checks passed.
+
+
 For M1 or newer Macs running macOS 14+. Download
-`Cadence-0.5.0-mac-arm64-beta-r4.dmg`, drag Cadence into Applications and open it.
+`Cadence-0.5.0-mac-arm64-beta-r5.dmg`, drag Cadence into Applications and open it.
 The editor, video tools, Whisper and its model are included. No Python or
 Homebrew setup is needed. This beta is not Developer ID signed or notarized;
 see [Mac setup](SETUP-MAC.md) for Apple's first-launch confirmation.
@@ -18,6 +26,16 @@ Package identity: [Mac manifest](releases/macos-arm64.json).
 Intel Macs and macOS versions below 14 are not supported by this package.
 
 ## Windows early access
+
+### October 26: Windows r8 icon and agent connection
+
+- Uses the approved Cadence logo in the app/taskbar and installer, with a full-resolution native icon instead of upscaling a small frame. Start-menu and desktop shortcuts explicitly reference the included Cadence.ico file, avoiding the old cached placeholder.
+- Shows a clear first-run **Connect your agent** button at the top, with a subtle glow and centered dismiss control.
+- Dismissal is remembered. **Cadence → Connect your agent** remains available and restores the prompt when needed.
+- Enabling access or copying instructions keeps the button visible. A successful authenticated connection hides it, including after restart.
+- Keeps the r6 workspace safeguard. Existing project files are preserved.
+- Native onboarding, connection/save/reopen, header layout and high-resolution icon checks passed using disposable data.
+
 
 ### October 26: Windows r6 workspace fix
 
@@ -53,10 +71,10 @@ Intel Macs and macOS versions below 14 are not supported by this package.
 
 | Field | Released package |
 | --- | --- |
-| File | `Cadence-Setup-0.5.0-release-r6.exe` |
-| Bytes | `1851993760` |
-| SHA-256 | `df3a6008df59f4305f12856f6a438a8509e1347753ee09a8901887cfecaa3253` |
-| Installed payload bytes | `2607160355` |
+| File | `Cadence-Setup-0.5.0-release-r8.exe` |
+| Bytes | `1852271328` |
+| SHA-256 | `4e04029f16fbc6a893e5018db26e7ce8a7953cece415c5671ced53e364e2f0fa` |
+| Installed payload bytes | `2607613528` |
 | Publisher signature | Unsigned |
 | Platform | Windows x64 |
 
