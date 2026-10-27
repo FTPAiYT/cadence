@@ -17,13 +17,13 @@ The installer retains third-party notices, licenses and dependency records under
 | NSIS | Windows installer |
 
 Windows includes video-component sources, build scripts and license texts inside
-the download. Mac has a matching `Cadence-0.6.0-mac-codec-sources.zip` release asset
+the download. Mac has a matching `Cadence-0.6.1-mac-codec-sources.zip` release asset
 and notices inside `Cadence.app/Contents/Resources/THIRD-PARTY-NOTICES`. Mac uses
 replaceable LGPL dylibs for decoding and a separate GPL encoder executable.
 See [source materials](SOURCE_MATERIALS.md). Cadence's application terms preserve the libraries'
 modification/debugging rights and all separate third-party redistribution rights.
 
-Cadence 0.6 is free to use, including to make commercial or client videos. Its own
+Cadence 0.6.1 is free to use, including to make commercial or client videos. Its own
 terms prohibit selling/sublicensing Cadence or including it in a paid software
 bundle without permission. Those restrictions do not apply to the independently
 licensed third-party components or your exported videos. Read the installed

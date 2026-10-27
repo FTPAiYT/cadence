@@ -1,28 +1,20 @@
 # Mac beta verification
 
-Package: `Cadence-0.6.0-mac-arm64-beta.dmg`. Apple Silicon (M1 or newer), macOS 14+.
-Built and tested October 26, 2026, in private workflow run 40409944635.
-The native app was rebuilt as 0.6.0 using the existing verified video/Python/model
-payload. The final disk image was re-signed, mounted read-only, and installed
-into disposable storage before verification. Deep strict signature checks passed.
-It is ad-hoc signed, not Developer ID signed or notarized.
+Package: `Cadence-0.6.1-mac-arm64-beta.dmg`. Apple Silicon (M1+), macOS 14+.
+Built and tested October 27, 2026, in private workflow 40499280058.
+The final 0.6.1 DMG was signed, mounted read-only and installed into disposable
+storage before 23 workflow checks passed. These include 92 shared
+regressions, native project discovery with Open/return, new project form,
+playback, decoded MP4 export, offline Whisper inference, save and clean shutdown.
 
-## Passed checks
+The video/Python/model dependencies are retained from the verified 0.6 package.
+Only the reviewed interface and versioned native wrapper were rebuilt.
+It is ad-hoc signed, not Apple Developer ID signed or notarized.
 
-22 recorded workflow checks, including 92 shared regressions,
-native startup and playback, the 0.6 beta badge, unclipped review-mode text,
-the simplified New Project form and an empty project without footage.
-Agent import, cut saving/reopening, decoded MP4 export, offline Whisper inference,
-autosave and clean native shutdown also passed using synthetic fixtures.
+Physical audio, recipient upgrades/security prompts, native file-dialog
+interaction, full-song performance and sung-word accuracy still need feedback.
+See [Mac setup](SETUP-MAC.md). These checks do not establish every recipient path.
 
-## Beta limits
-
-Physical audio, native file-dialog interaction, recipient upgrades/security prompts,
-full-song performance and sung-word accuracy still need beta feedback. These checks
-do not establish every recipient installation path. See [Mac setup](SETUP-MAC.md).
-
-## Package identity
-
-SHA-256: `bc3dacdac86ab6485b2d04b0fbf1af9a43368c745b38da6e5932b861679ce786`.
-Size: `1819742912` bytes.
-See [Mac manifest](releases/macos-arm64.json) and [checksums](SHA256SUMS).
+SHA-256: `db4dac271fecfee6ffab5e04b9267bd0cf4ea2557c96e5f4b1295b4bf6d8860b`.
+Size: `1823105724` bytes.
+See [manifest](releases/macos-arm64.json) and [checksums](SHA256SUMS).

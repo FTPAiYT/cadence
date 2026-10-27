@@ -1,5 +1,16 @@
 # Working with your user's videos in Cadence
 
+## Projects appear while the app stays open (0.6.1+)
+
+Create the project through the normal helper while Cadence is open. Its first
+project opens automatically on an empty workspace. If the user is already
+editing, the project picker updates and Open project is offered; their current
+edit stays put. View videos can switch to the imported batch's project and bin.
+Do not tell users to restart Cadence to discover a new project. Let an open
+project-creation form finish or close normally. Older builds should be updated
+using the current platform manifest when this live discovery is needed.
+
+
 On Windows, launch the installed app through Explorer from packaged agent hosts.
 See [safe launch and workspace recovery](WINDOWS-WORKSPACE-RECOVERY.md).
 Never delete or blindly merge workspaces if projects appear missing.

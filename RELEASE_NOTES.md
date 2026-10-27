@@ -1,48 +1,44 @@
-# Cadence 0.6 Beta â€” Windows + Mac
+# Cadence 0.6.1 Beta — projects appear without restarting
 
-Cadence 0.6 makes getting started clearer and fixes several small interface issues.
+Your agent's projects now show up while Cadence stays open.
 
-- Create a project with just a name. Choose a footage folder now or add clips later.
-- Clearer project switching, centered menu arrows, and a visible v0.6 BETA badge.
-- A prominent Connect your agent button that hides after connection and can be dismissed.
-- Correct high-resolution Cadence icons and fixes for clipped dropdown/Settings text.
-- Windows retains the safeguard against Claude/MSIX launches creating a separate workspace.
+- If you're starting with an empty workspace, the first project opens automatically.
+- If you're already editing, the project list updates and an Open project notice appears. Your current edit stays put.
+- View videos can open footage in another project and take you straight to its bin.
+- Cadence saves the current edit before switching. If saving fails, it keeps the current project open so you can retry.
+- The connected empty screen explains what to ask your agent to do next. A project form you're filling in stays open.
 
 ## Download
 
-- **Windows:** `Cadence-Setup-0.6.0.exe` â€” Windows 10 or newer, x64.
-- **Mac:** `Cadence-0.6.0-mac-arm64-beta.dmg` â€” M1 or newer, macOS 14 or newer.
+- Windows 10+ x64: **Cadence-Setup-0.6.1.exe**.
+- Apple Silicon Mac (M1 or newer), macOS 14+: **Cadence-0.6.1-mac-arm64-beta.dmg**.
 
-Both packages include the editor, video tools, and the local lyrics engine/model.
-Intel Macs and Windows ARM are not supported by these downloads.
-
-You will most likely get a security warning on both Windows and Mac. Cadence
-does not have a verified publisher. If you trust me and want to try it, download
-the matching file from this release. See the repository's Windows or Mac setup
-page for the prompts you may see.
+Both downloads include the editor, video tools and local lyrics engine/model.
+You will most likely get a security warning on both Windows and Mac because
+Cadence does not have a verified publisher. If you trust me and want to try it,
+use the matching file from this release and follow the repository's setup page.
 
 ## Updating
 
-Save and close Cadence first. On Windows, run the new installer. On Mac, drag
-Cadence into Applications and replace the previous app. Your workspace is stored
-separately; keep your projects and original footage. Automatic updates are not included.
+Save and close Cadence. Run the new Windows installer, or drag the Mac app into
+Applications and replace the previous app. Your workspace is kept separately.
+Keep your original footage. Automatic updates are not included.
 
-The 0.5 release remains available. `SHA256SUMS-0.6.0.txt` identifies the files in this
-release. The codec-source ZIPs are supporting source materials, not the app.
+The 0.6.0 and 0.5.0 releases remain available. `SHA256SUMS-0.6.1.txt` identifies
+these downloads. The codec-source ZIPs are supporting sources, not the app.
 
-This is still a beta. If something does not work, tell me your operating system
-and what happened. Native security prompts, physical audio, and every recipient's
-installation path are not all covered by the automated checks.
+This remains a beta. Recipient security prompts, physical audio, full-song
+performance and sung-word accuracy still need feedback.
+
+## Verification
+
+Ten Windows native checks cover the actual connected-agent workflow, including nine bins, edit restoration, failed-save retry, cross-project footage and in-progress forms. The exact Mac disk image passed 23 workflow checks, including 92 regressions, live project discovery, native video playback, export and offline lyrics.
 
 ## Package identity
 
 | File | Bytes | SHA-256 |
 | --- | ---: | --- |
-| `Cadence-Setup-0.6.0.exe` | 1852275519 | `83ca758f60e6af0e893416ead9531f741e09dfb67cba41e1ee7025243b00e3c2` |
-| `Cadence-0.6.0-codec-sources.zip` | 133539240 | `346a0237419c9d488b36f3b274a34e466eb9238adea5dd34c3082bd4ca0b339a` |
-| `Cadence-0.6.0-mac-arm64-beta.dmg` | 1819742912 | `bc3dacdac86ab6485b2d04b0fbf1af9a43368c745b38da6e5932b861679ce786` |
-| `Cadence-0.6.0-mac-codec-sources.zip` | 12818579 | `4fcc58be7452e459dda420998c032d1ef71698dc86bc72b38c3675b2ed84489b` |
-
-## Verification
-
-Windows browser checks cover project creation, switching, imports, controls and text fit. The same workflows passed in the 0.6 native app, and its bundled-engine check passed. The Mac package passed 22 recorded checks, including native video playback, export, offline lyrics, the 0.6 badge and new project form. Both platforms retain beta limits for recipient installations and physical audio.
+| `Cadence-Setup-0.6.1.exe` | 1852277932 | `1653e8f3a749a39ba3f8d089de317802bd0938705e485cacd2a56d700fbb9f4f` |
+| `Cadence-0.6.1-codec-sources.zip` | 133539240 | `346a0237419c9d488b36f3b274a34e466eb9238adea5dd34c3082bd4ca0b339a` |
+| `Cadence-0.6.1-mac-arm64-beta.dmg` | 1823105724 | `db4dac271fecfee6ffab5e04b9267bd0cf4ea2557c96e5f4b1295b4bf6d8860b` |
+| `Cadence-0.6.1-mac-codec-sources.zip` | 12818579 | `96eeb235313ba70a927d22402d832221822d45b1b16cc9a800642af4f92e0195` |

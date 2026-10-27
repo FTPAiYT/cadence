@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "product": "Cadence",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "channel": "beta",
   "platform": "windows-x64",
   "published": true,
-  "tag": "v0.6.0",
-  "asset": "Cadence-Setup-0.6.0.exe",
-  "bytes": 1852275519,
-  "sha256": "83ca758f60e6af0e893416ead9531f741e09dfb67cba41e1ee7025243b00e3c2",
-  "installedPayloadBytes": 2607629012,
+  "tag": "v0.6.1",
+  "asset": "Cadence-Setup-0.6.1.exe",
+  "bytes": 1852277932,
+  "sha256": "1653e8f3a749a39ba3f8d089de317802bd0938705e485cacd2a56d700fbb9f4f",
+  "installedPayloadBytes": 2607636700,
   "signed": false,
   "includesWhisper": true,
   "minimumWindows": "10",
-  "status": "Windows 0.6 beta: optional footage on project creation, clearer project controls, beta/version badge and text-fit fixes. Unsigned installer; video tools and lyrics model included."
+  "status": "Windows 0.6.1 beta: agent-created projects appear live; first project opens automatically, existing edits stay put, and View videos opens the correct project/bin. Unsigned installer."
 }
