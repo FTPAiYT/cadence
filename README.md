@@ -22,12 +22,12 @@ perform the local import.
 
 ## Download status
 
-**Cadence 0.6.1 is free early access for Windows and Apple Silicon Mac.**
+**Cadence 0.6.2 is free early access for Windows and Apple Silicon Mac.**
 
-[Download for Mac](https://github.com/FTPAiYT/cadence/releases/download/v0.6.1/Cadence-0.6.1-mac-arm64-beta.dmg) · [Download for Windows](https://github.com/FTPAiYT/cadence/releases/download/v0.6.1/Cadence-Setup-0.6.1.exe) · [Release and checksums](https://github.com/FTPAiYT/cadence/releases/tag/v0.6.1)
+[Download for Mac](https://github.com/FTPAiYT/cadence/releases/download/v0.6.2/Cadence-0.6.2-mac-arm64-beta.dmg) · [Download for Windows](https://github.com/FTPAiYT/cadence/releases/download/v0.6.2/Cadence-Setup-0.6.2.exe) · [Release and checksums](https://github.com/FTPAiYT/cadence/releases/tag/v0.6.2)
 
 Both packages include third-party notices and have matching video-component sources.
-Cadence 0.6.1 is free to use, including for commercial video work; selling Cadence
+Cadence 0.6.2 is free to use, including for commercial video work; selling Cadence
 itself requires permission. Separate third-party license rights are preserved. See
 [release status](RELEASE_NOTES.md). Do not download similarly named files from
 other repositories or treat GitHub's automatic “Source code” ZIP as the app.
@@ -45,7 +45,7 @@ supported platform.
 Downloads are **release assets** under this repository's Releases tab. Their exact filenames, sizes and SHA-256 hashes are recorded in
 the [Windows manifest](releases/windows-x64.json), [Mac manifest](releases/macos-arm64.json) and [SHA256SUMS](SHA256SUMS).
 
-**On a Mac:** [download the DMG](https://github.com/FTPAiYT/cadence/releases/download/v0.6.1/Cadence-0.6.1-mac-arm64-beta.dmg), drag Cadence into Applications and
+**On a Mac:** [download the DMG](https://github.com/FTPAiYT/cadence/releases/download/v0.6.2/Cadence-0.6.2-mac-arm64-beta.dmg), drag Cadence into Applications and
 open it. Everything is included. macOS may require you to approve this beta under
 Privacy & Security because it is not Developer ID signed or notarized.
 
@@ -56,7 +56,7 @@ Privacy & Security because it is not Developer ID signed or notarized.
 - Whisper and its large-v3-turbo speech model for editable lyrics and timings.
 - Private Python runtimes and video-processing dependencies.
 
-The Mac download is **1.82 GB**; the Windows download is **1.85 GB**.
+The Mac download is **1.83 GB**; the Windows download is **1.85 GB**.
 Installation unpacks the downloaded files into a larger app.
 Allow room for both during setup, plus your footage, previews and exports.
 Transcription runs on CPU; speed depends on your computer. Singing can require
