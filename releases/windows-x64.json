@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "product": "Cadence",
-  "version": "0.6.2",
+  "version": "0.7.1",
   "channel": "beta",
   "platform": "windows-x64",
   "published": true,
-  "tag": "v0.6.2",
-  "asset": "Cadence-Setup-0.6.2.exe",
-  "bytes": 1852277396,
-  "sha256": "0f992c767b7738236d51974ef551dfcdc87d5860047d828721b755504b14be9f",
-  "installedPayloadBytes": 2607635930,
+  "tag": "v0.7.1",
+  "asset": "Cadence-Setup-0.7.1.exe",
+  "bytes": 1852338154,
+  "sha256": "2fc8ed3ea98596e30307ff78d4f79b2b91ae07650a07c05f2ebb244878d9b4c7",
+  "installedPayloadBytes": 2607846087,
   "signed": false,
   "includesWhisper": true,
   "minimumWindows": "10",
-  "status": "Windows 0.6.2 beta: native clip/range dragging fixed and cursor image removed. Unsigned installer; video tools and lyrics model included."
+  "status": "Windows 0.7.1 beta: direct Effects/Clip panels, fixed sidebar sizing, credits and review polish. Unsigned installer; video tools and lyrics model included."
 }

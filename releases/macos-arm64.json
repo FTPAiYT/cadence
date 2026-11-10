@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "product": "Cadence",
-  "version": "0.6.2",
+  "version": "0.7.1",
   "channel": "beta",
   "platform": "macos-arm64",
   "published": true,
-  "tag": "v0.6.2",
-  "asset": "Cadence-0.6.2-mac-arm64-beta.dmg",
-  "bytes": 1826883959,
-  "sha256": "8ae5c4dce105498a1750b3ea1bb0ea16d2f15c0c1ce34ebd962fdad7bc9c0279",
+  "tag": "v0.7.1",
+  "asset": "Cadence-0.7.1-mac-arm64-beta.dmg",
+  "bytes": 1813365100,
+  "sha256": "9f7737ee9f0c2384b73b719c5c0c1bbf5321adf569a3b56581f38029fd0bcac0",
   "developerIDSigned": false,
   "notarized": false,
   "includesWhisper": true,
   "minimumMacOS": "14.0",
   "requiresAppleSilicon": true,
-  "codecSourcesAsset": "Cadence-0.6.2-mac-codec-sources.zip",
-  "status": "Apple Silicon 0.6.2 beta: transparent clip drag image and live agent projects. macOS 14+. Not Developer ID signed or notarized."
+  "codecSourcesAsset": "Cadence-0.7.1-mac-codec-sources.zip",
+  "status": "Apple Silicon 0.7.1 beta: matching Effects/Clip workflow, credits and review polish. macOS 14+. Ad-hoc signed; not Developer ID signed or notarized."
 }
