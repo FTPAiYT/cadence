@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "product": "Cadence",
-  "version": "0.7.1",
+  "version": "0.7.3",
   "channel": "beta",
   "platform": "windows-x64",
   "published": true,
-  "tag": "v0.7.1",
-  "asset": "Cadence-Setup-0.7.1.exe",
-  "bytes": 1852338154,
-  "sha256": "2fc8ed3ea98596e30307ff78d4f79b2b91ae07650a07c05f2ebb244878d9b4c7",
-  "installedPayloadBytes": 2607846087,
+  "tag": "v0.7.3",
+  "asset": "Cadence-Setup-0.7.3.exe",
+  "bytes": 1852463145,
+  "sha256": "31bba31faf4607cecd58ad89f045cd818dbbfcd8a938da10d2e443d6b99544bf",
+  "installedPayloadBytes": 2607999967,
   "signed": false,
   "includesWhisper": true,
   "minimumWindows": "10",
-  "status": "Windows 0.7.1 beta: direct Effects/Clip panels, fixed sidebar sizing, credits and review polish. Unsigned installer; video tools and lyrics model included."
+  "status": "Windows x64 beta with project opening, named cut saving and autosave recovery. Unsigned installer."
 }

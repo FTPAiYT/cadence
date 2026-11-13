@@ -1,6 +1,6 @@
 # Install Cadence for Windows
 
-[Download Cadence 0.7.1 for Windows](https://github.com/FTPAiYT/cadence/releases/download/v0.7.1/Cadence-Setup-0.7.1.exe).
+[Download Cadence 0.7.3 for Windows](https://github.com/FTPAiYT/cadence/releases/download/v0.7.3/Cadence-Setup-0.7.3.exe).
 The exact package identity is recorded in [releases/windows-x64.json](releases/windows-x64.json).
 
 ## Requirements and download

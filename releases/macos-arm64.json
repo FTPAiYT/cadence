@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "product": "Cadence",
-  "version": "0.7.1",
+  "version": "0.7.3",
   "channel": "beta",
   "platform": "macos-arm64",
   "published": true,
-  "tag": "v0.7.1",
-  "asset": "Cadence-0.7.1-mac-arm64-beta.dmg",
-  "bytes": 1813365100,
-  "sha256": "9f7737ee9f0c2384b73b719c5c0c1bbf5321adf569a3b56581f38029fd0bcac0",
+  "tag": "v0.7.3",
+  "asset": "Cadence-0.7.3-mac-arm64-beta.dmg",
+  "bytes": 1815795773,
+  "sha256": "766a72fe10829aab700768e2077b3064c8576b78866cbbad7848b878d5e61d7b",
   "developerIDSigned": false,
   "notarized": false,
   "includesWhisper": true,
   "minimumMacOS": "14.0",
   "requiresAppleSilicon": true,
-  "codecSourcesAsset": "Cadence-0.7.1-mac-codec-sources.zip",
-  "status": "Apple Silicon 0.7.1 beta: matching Effects/Clip workflow, credits and review polish. macOS 14+. Ad-hoc signed; not Developer ID signed or notarized."
+  "codecSourcesAsset": "Cadence-0.7.3-mac-codec-sources.zip",
+  "status": "Apple Silicon beta with project opening, named cut saving and autosave recovery. Requires macOS 14 or later. Ad-hoc signed, without Apple notarization."
 }

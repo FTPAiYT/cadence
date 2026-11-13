@@ -4,7 +4,7 @@
 
 ## Install
 
-1. [Download Cadence for Mac](https://github.com/FTPAiYT/cadence/releases/download/v0.7.1/Cadence-0.7.1-mac-arm64-beta.dmg) and open the `.dmg` file.
+1. [Download Cadence for Mac](https://github.com/FTPAiYT/cadence/releases/download/v0.7.3/Cadence-0.7.3-mac-arm64-beta.dmg) and open the `.dmg` file.
 2. Drag **Cadence** into **Applications**.
 3. Open **Cadence** from Applications.
 
@@ -76,7 +76,7 @@ never delete a workspace as routine troubleshooting.
 ## Beta status
 
 The packaged app and an installation from the DMG passed automated tests on an
-Apple Silicon macOS 14 host, including native playback, export, offline lyrics,
+Apple Silicon macOS 15 host, including native playback, export, offline lyrics,
 agent import, save/reopen and safe shutdown. Physical audio listening, native
 file-dialog interaction, recipient upgrades and full-song performance still need
 beta feedback. See [Mac verification](MACOS-VERIFICATION.md).
